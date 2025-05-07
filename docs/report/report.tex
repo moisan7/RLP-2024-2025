@@ -1,0 +1,116 @@
+\documentclass[a4paper,12pt]{article}
+\usepackage{fontspec} % Permite usar fuentes modernas
+\usepackage{xcolor} % Para definir colores
+\usepackage{graphicx} % Para incluir imágenes
+\usepackage{titling} % Para personalizar la portada
+\usepackage{amsmath} % Para matemáticas avanzadas
+\usepackage{hyperref} % Para enlaces y referencias
+\usepackage{unicode-math} % Para usar matemáticas Unicode
+\usepackage[margin=1in]{geometry} % Para ajustar márgenes
+\usepackage[spanish]{babel} % Para el idioma español
+
+\setmainfont{Georgia} % Cambia la fuente principal a Georgia
+\setmathfont{TeX Gyre Schola Math} % Cambia la fuente de matemáticas a TeX Gyre Schola Math
+\setmonofont{Cascadia Mono} % Cambia la fuente monoespaciada a Consolas
+
+\begin{document}
+
+% ============================
+% Portada
+% ============================
+\begin{titlepage}
+    \centering
+    \vspace*{2cm}
+
+    {\Huge\bfseries \textsc{Compa - Compra} \\ Carrito de la compra autónomo  \par}
+
+    \vspace{1.5cm}
+    {\Large\bfseries Universitat Autònoma de Barcelona (UAB)
+    
+    Escola d'enginyeria informática - Robótica 2025 \par}
+
+    \vspace{0.5cm}
+
+    \includegraphics[width=0.5\textwidth]{Logo_uab.png} % Logo de la UAB (debe estar en la misma carpeta que el documento)
+
+    \vspace{0.5cm}
+    {\large Pol Tomé, 
+
+    Adrià Fernandez Mata, 
+
+    David Madueño Noguer,
+
+    Tiago David Nunes Rodrigues, 
+
+    Moisés Sánchez Pin
+     \par}
+
+    \vspace{2cm}
+    \includegraphics[width=0.4\textwidth]{compacompra_logo.jpg} % Logo de la UAB (debe estar en la misma carpeta que el documento)
+
+    \vfill
+    {\Large \today}
+
+\end{titlepage}
+
+% ============================
+% Tabla de contenido
+% ============================
+\tableofcontents
+
+% ============================
+% Abstract del documento
+% ============================
+\begin{abstract}
+Compa Compra es un asistente de compra autónomo que se encarga de guíar y asistir al usuario del establecimiento para completar sus compras de forma fácil y sencilla. El usuario se comunica con ComCom mediante una aplicación en la que se especifican los productos.
+\textbf{¡Haz la lista y ComCom te guía!}
+\end{abstract}
+
+% ============================
+% Introducción del documento
+% ============================  
+\section{Introducción}
+El acto de comprar es una actividad cotidiana, pero no siempre es eficiente. 
+Ya sea por la dificultad de encontrar productos, la congestión en los 
+pasillos o la necesidad de comparar opciones, recorrer el supermercado 
+puede convertirse en una tarea tediosa. \textbf{ Compa Compra } es un asistente 
+autónomo diseñado para mejorar la experiencia de compra de cualquier usuario, 
+independientemente de su perfil, edad o necesidades específicas.  
+
+A través de una aplicación multimedia, el cliente introduce su lista de 
+compras, y el robot ComCom procesa la mejor ruta dentro del establecimiento 
+usando técnicas avanzadas de localización y planificación de trayectos. 
+Gracias al algoritmo *D* Lite y el uso de balizas Bluetooth, \textbf{ Compa Compra } 
+optimiza el tiempo de compra y facilita el acceso eficiente a cada producto.  
+
+\section{Marco Teórico y Contextualización}
+
+El proyecto \textbf{CompaCompra} se fundamenta en dos áreas clave de la robótica y la navegación autónoma: la \textbf{localización 2D} mediante trilateración y la planificación de rutas con \textbf{D* Lite}. Estos conceptos permiten que el asistente guíe al usuario dentro del supermercado con precisión y adaptabilidad.
+
+\subsection{Localización 2D}
+Uno de los principales retos de la navegación autónoma es la \textbf{localización en interiores}. Para determinar la posición de \textbf{ComCom}, se emplea trilateración 2D con cuatro balizas Bluetooth fijas en las esquinas del supermercado.
+
+El método utiliza la medición de la \textbf{intensidad de señal recibida (RSSI)} de cada baliza para estimar la distancia entre el robot y las referencias fijas. Sin embargo, la señal RSSI puede verse afectada por interferencias, por lo que se aplican técnicas de \textbf{filtrado y corrección de errores}, como la media móvil y el filtro de Kalman.
+
+Una vez obtenida la posición estimada \((x, y)\), se ajusta a la cuadrícula más cercana del supermercado, definida como una malla de \textbf{0.5m² por nodo}. Este proceso permite una representación discreta del espacio de navegación y facilita el cálculo de rutas.
+
+Para más información sobre trilateración, consultar la documentación:
+\href{https://es.wikipedia.org/wiki/Trilateraci%C3%B3n}{Trilateración en Wikipedia}
+
+\subsection{Algoritmo de Path Finding: D* Lite}
+El desplazamiento óptimo del robot se gestiona mediante \textbf{D* Lite}, un algoritmo eficiente de búsqueda de rutas en entornos dinámicos. A partir de la posición del usuario y los productos en la lista de compra, el sistema calcula la trayectoria ideal en la malla de nodos.
+
+Cada nodo del supermercado puede clasificarse en:
+\begin{itemize}
+\item \textbf{Libre:} zonas transitables sin obstáculos.
+\item \textbf{Ocupado:} áreas bloqueadas por estanterías, obstáculos o carros de otros clientes.
+\end{itemize}
+
+Inicialmente, se consideran todos los obstáculos conocidos, pero el camino se \textbf{recalcula dinámicamente} si \textbf{ComCom} detecta nuevos impedimentos durante su recorrido. Esto permite que el robot se adapte en tiempo real a los cambios en el entorno.
+
+Para más información sobre \textbf{D* Lite}, consultar la documentación:
+\href{https://es.wikipedia.org/wiki/D*#D*_Lite}{D* Lite en Wikipedia}
+
+\section{Descripción del Sistema CompaCompra}
+
+\end{document}
