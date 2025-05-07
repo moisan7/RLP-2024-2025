@@ -1,12 +1,19 @@
 # Fdb version 4
-["xdvipdfmx"] 1746613462.24215 "report.xdv" "report.pdf" "report" 1746613462.84453 0
-  "report.xdv" 1746613461 42860 89c79c6a1259540927a8d4e981129f1a "xelatex"
+["xdvipdfmx"] 1746634941.4289 "report.xdv" "report.pdf" "report" 1746634942.3578 0
+  "report.xdv" 1746634941 42868 fcf156f3018e4f82a8b3570fa758fdff "xelatex"
   (generated)
   "report.pdf"
   (rewritten before read)
-["xelatex"] 1746619215.22065 "c:/Users/moisa/Documents/UAB Docs/RPL/RLP-2024-2025/docs/report/report.tex" "report.xdv" "report" 1746619216.50999 2
+["xelatex"] 1746634939.48574 "c:/Users/moisa/Documents/UAB Docs/RPL/RLP-2024-2025/docs/report/report.tex" "report.xdv" "report" 1746634942.35425 0
+  "C:/Users/moisa/AppData/Local/MiKTeX/miktex/data/le/xetex/xelatex.fmt" 1742574144 25521436 d4932753c1d11b4695e4c79805e55de1 ""
+  "C:/Users/moisa/AppData/Local/Programs/MiKTeX/fonts/tfm/adobe/zapfding/pzdr.tfm" 1136768654 1528 7e12f4c0fcf5a072cebdcfbfc610f54c ""
+  "C:/Users/moisa/AppData/Local/Programs/MiKTeX/fonts/tfm/public/cm/cmmi12.tfm" 1136765053 1524 4414a8315f39513458b80dfc63bff03a ""
+  "C:/Users/moisa/AppData/Local/Programs/MiKTeX/fonts/tfm/public/cm/cmmi7.tfm" 1136765053 1528 e2423ae06dc7dee599cceb79d1c9dc32 ""
+  "C:/Users/moisa/AppData/Local/Programs/MiKTeX/fonts/tfm/public/cm/cmmi9.tfm" 1136765053 1524 d89e2d087a9828407a196f428428ef4a ""
   "C:/Users/moisa/AppData/Local/Programs/MiKTeX/tex/fonts/cascadiamono-otf/CascadiaMono.fontspec" 1736606398 235 5d239e21476392ee12db8f6c704f0fb9 ""
+  "C:/Users/moisa/AppData/Local/Programs/MiKTeX/tex/generic/atbegshi/atbegshi.sty" 1575571100 24708 5584a51a7101caf7e6bbf1fc27d8f7b1 ""
   "C:/Users/moisa/AppData/Local/Programs/MiKTeX/tex/generic/babel/babel.sty" 1739553521 143388 b008e1666520ff43d0878397f2926242 ""
+  "C:/Users/moisa/AppData/Local/Programs/MiKTeX/tex/generic/babel/locale/es/babel-es.ini" 1739553522 4345 33a8cc6f0a7c6afcb84895b2c963a4e5 ""
   "C:/Users/moisa/AppData/Local/Programs/MiKTeX/tex/generic/babel/locale/es/babel-spanish.tex" 1739553522 336 a1c472f674f6f0c25a2c95ad8c7ad024 ""
   "C:/Users/moisa/AppData/Local/Programs/MiKTeX/tex/generic/babel/xebabel.def" 1739553521 18647 20e1dbde92e1fb200b527e2910aff7ff ""
   "C:/Users/moisa/AppData/Local/Programs/MiKTeX/tex/generic/bigintcalc/bigintcalc.sty" 1576433602 40635 c40361e206be584d448876bba8a64a3b ""
@@ -28,6 +35,7 @@
   "C:/Users/moisa/AppData/Local/Programs/MiKTeX/tex/latex/amsmath/amsopn.sty" 1731152860 4474 23ca1d3a79a57b405388059456d0a8df ""
   "C:/Users/moisa/AppData/Local/Programs/MiKTeX/tex/latex/amsmath/amstext.sty" 1731152860 2444 71618ea5f2377e33b04fb97afdd0eac2 ""
   "C:/Users/moisa/AppData/Local/Programs/MiKTeX/tex/latex/arabi/bblopts.cfg" 1705750854 902 c30e5c373bc58bde21f8f63a3091626f ""
+  "C:/Users/moisa/AppData/Local/Programs/MiKTeX/tex/latex/atveryend/atveryend.sty" 1729262840 1695 be6b4d13b33db697fd3fd30b24716c1a ""
   "C:/Users/moisa/AppData/Local/Programs/MiKTeX/tex/latex/babel-spanish/spanish.ldf" 1622279580 26965 3b6d1655ad716f98e788b1fb9f2e87b8 ""
   "C:/Users/moisa/AppData/Local/Programs/MiKTeX/tex/latex/base/article.cls" 1738160243 20144 63d8bacaf52e5abf4db3bc322373e1d4 ""
   "C:/Users/moisa/AppData/Local/Programs/MiKTeX/tex/latex/base/atbegshi-ltx.sty" 1738160243 2963 d8ec5a1b4e0a106c5c737900202763e4 ""
@@ -73,10 +81,10 @@
   "Logo_uab.png" 1746608097 50804 a8443aa253d4422c98fc3319dbefdfff ""
   "c:/Users/moisa/Documents/UAB Docs/RPL/RLP-2024-2025/docs/report/report.tex" 1746619211 5731 e529919f725ac026ee5e4facd4d9cd9c ""
   "compacompra_logo.jpg" 1745409264 83065 a4db35ee91a627f1878b8e5913d2349a ""
-  "report.aux" 1746613461 990 a70f24f4e2a8913102c227cb7503575c "xelatex"
-  "report.out" 1746613461 939 ec26078cc3ca73d432b83af50cbb61c4 "xelatex"
+  "report.aux" 1746634941 990 a70f24f4e2a8913102c227cb7503575c "xelatex"
+  "report.out" 1746634941 939 ec26078cc3ca73d432b83af50cbb61c4 "xelatex"
   "report.tex" 1746619211 5731 e529919f725ac026ee5e4facd4d9cd9c ""
-  "report.toc" 1746613461 464 b741eac2ce6eec6dbef18c812f4215c2 "xelatex"
+  "report.toc" 1746634941 464 b741eac2ce6eec6dbef18c812f4215c2 "xelatex"
   (generated)
   "report.aux"
   "report.log"
