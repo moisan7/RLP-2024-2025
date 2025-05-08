@@ -175,8 +175,8 @@ INPUT .\report.toc
 INPUT .\report.toc
 INPUT report.toc
 INPUT C:\Users\moisa\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmmi12.tfm
-INPUT C:\Users\moisa\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmmi9.tfm
-INPUT C:\Users\moisa\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmmi7.tfm
+INPUT C:\Users\moisa\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmmi8.tfm
+INPUT C:\Users\moisa\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmmi6.tfm
 OUTPUT report.toc
 INPUT report.aux
 INPUT .\report.out

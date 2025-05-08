@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999997 (MiKTeX 25.3) (preloaded format=xelatex 2025.3.21)  8 MAY 2025 11:05
+This is XeTeX, Version 3.141592653-2.6-0.999997 (MiKTeX 25.3) (preloaded format=xelatex 2025.3.21)  8 MAY 2025 12:55
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -322,218 +322,216 @@ Package babel Info: Importing font and identification data for english
 )
 
 Package fontspec Info: 
-(fontspec)             Font family 'Georgia(0)' created for font 'Georgia'
-(fontspec)             with options [Ligatures=TeX].
+(fontspec)             Font family 'AptosSerif(0)' created for font 'Aptos
+(fontspec)             Serif' with options [Ligatures=TeX].
 (fontspec)              
 (fontspec)              This font family consists of the following NFSS
 (fontspec)             series/shapes:
 (fontspec)              
-(fontspec)             - 'normal' (m/n) with NFSS spec.:
-(fontspec)             <->"Georgia/OT:script=latn;language=dflt;mapping=tex-text;"
-(fontspec)             - 'small caps'  (m/sc) with NFSS spec.:
-(fontspec)             <->"Georgia/OT:script=latn;language=dflt;+smcp;mapping=tex-text;"
-(fontspec)             - 'bold' (b/n) with NFSS spec.:
-(fontspec)             <->"Georgia/B/OT:script=latn;language=dflt;mapping=tex-text;"
-(fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.:
-(fontspec)             <->"Georgia/B/OT:script=latn;language=dflt;+smcp;mapping=tex-text;"
-(fontspec)             - 'italic' (m/it) with NFSS spec.:
-(fontspec)             <->"Georgia/I/OT:script=latn;language=dflt;mapping=tex-text;"
+(fontspec)             - 'normal' (m/n) with NFSS spec.: <->"Aptos
+(fontspec)             Serif/OT:script=latn;language=dflt;mapping=tex-text;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: <->"Aptos
+(fontspec)             Serif/OT:script=latn;language=dflt;+smcp;mapping=tex-text;"
+(fontspec)             - 'bold' (b/n) with NFSS spec.: <->"Aptos
+(fontspec)             Serif/B/OT:script=latn;language=dflt;mapping=tex-text;"
+(fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.: <->"Aptos
+(fontspec)             Serif/B/OT:script=latn;language=dflt;+smcp;mapping=tex-text;"
+(fontspec)             - 'italic' (m/it) with NFSS spec.: <->"Aptos
+(fontspec)             Serif/I/OT:script=latn;language=dflt;mapping=tex-text;"
 (fontspec)             - 'italic small caps'  (m/scit) with NFSS spec.:
-(fontspec)             <->"Georgia/I/OT:script=latn;language=dflt;+smcp;mapping=tex-text;"
-(fontspec)             - 'bold italic' (b/it) with NFSS spec.:
-(fontspec)             <->"Georgia/BI/OT:script=latn;language=dflt;mapping=tex-text;"
+(fontspec)             <->"Aptos
+(fontspec)             Serif/I/OT:script=latn;language=dflt;+smcp;mapping=tex-text;"
+(fontspec)             - 'bold italic' (b/it) with NFSS spec.: <->"Aptos
+(fontspec)             Serif/BI/OT:script=latn;language=dflt;mapping=tex-text;"
 (fontspec)             - 'bold italic small caps'  (b/scit) with NFSS spec.:
-(fontspec)             <->"Georgia/BI/OT:script=latn;language=dflt;+smcp;mapping=tex-text;"
+(fontspec)             <->"Aptos
+(fontspec)             Serif/BI/OT:script=latn;language=dflt;+smcp;mapping=tex-text;"
 
 
 Package fontspec Info: 
-(fontspec)             Font family 'Georgia(1)' created for font 'Georgia'
-(fontspec)             with options [].
+(fontspec)             Font family 'AptosSerif(1)' created for font 'Aptos
+(fontspec)             Serif' with options [].
 (fontspec)              
 (fontspec)              This font family consists of the following NFSS
 (fontspec)             series/shapes:
 (fontspec)              
-(fontspec)             - 'normal' (m/n) with NFSS spec.:
-(fontspec)             <->"Georgia/OT:script=latn;language=dflt;"
-(fontspec)             - 'small caps'  (m/sc) with NFSS spec.:
-(fontspec)             <->"Georgia/OT:script=latn;language=dflt;+smcp;"
-(fontspec)             - 'bold' (b/n) with NFSS spec.:
-(fontspec)             <->"Georgia/B/OT:script=latn;language=dflt;"
-(fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.:
-(fontspec)             <->"Georgia/B/OT:script=latn;language=dflt;+smcp;"
-(fontspec)             - 'italic' (m/it) with NFSS spec.:
-(fontspec)             <->"Georgia/I/OT:script=latn;language=dflt;"
+(fontspec)             - 'normal' (m/n) with NFSS spec.: <->"Aptos
+(fontspec)             Serif/OT:script=latn;language=dflt;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: <->"Aptos
+(fontspec)             Serif/OT:script=latn;language=dflt;+smcp;"
+(fontspec)             - 'bold' (b/n) with NFSS spec.: <->"Aptos
+(fontspec)             Serif/B/OT:script=latn;language=dflt;"
+(fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.: <->"Aptos
+(fontspec)             Serif/B/OT:script=latn;language=dflt;+smcp;"
+(fontspec)             - 'italic' (m/it) with NFSS spec.: <->"Aptos
+(fontspec)             Serif/I/OT:script=latn;language=dflt;"
 (fontspec)             - 'italic small caps'  (m/scit) with NFSS spec.:
-(fontspec)             <->"Georgia/I/OT:script=latn;language=dflt;+smcp;"
-(fontspec)             - 'bold italic' (b/it) with NFSS spec.:
-(fontspec)             <->"Georgia/BI/OT:script=latn;language=dflt;"
+(fontspec)             <->"Aptos Serif/I/OT:script=latn;language=dflt;+smcp;"
+(fontspec)             - 'bold italic' (b/it) with NFSS spec.: <->"Aptos
+(fontspec)             Serif/BI/OT:script=latn;language=dflt;"
 (fontspec)             - 'bold italic small caps'  (b/scit) with NFSS spec.:
-(fontspec)             <->"Georgia/BI/OT:script=latn;language=dflt;+smcp;"
+(fontspec)             <->"Aptos Serif/BI/OT:script=latn;language=dflt;+smcp;"
 
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `normal'
-(Font)                  OT1/cmr/m/n --> TU/Georgia(1)/m/n on input line 13.
+(Font)                  OT1/cmr/m/n --> TU/AptosSerif(1)/m/n on input line 13.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/cmr/m/it --> TU/Georgia(1)/m/it on input line 13.
+(Font)                  OT1/cmr/m/it --> TU/AptosSerif(1)/m/it on input line 13.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/cmr/bx/n --> TU/Georgia(1)/b/n on input line 13.
+(Font)                  OT1/cmr/bx/n --> TU/AptosSerif(1)/b/n on input line 13.
 
 Package fontspec Info: 
-(fontspec)             Could not resolve font "TeX Gyre Schola Math/B" (it
-(fontspec)             probably doesn't exist).
+(fontspec)             Could not resolve font "STIX Two Math/B" (it probably
+(fontspec)             doesn't exist).
 
 
 Package fontspec Info: 
-(fontspec)             Font family 'TeXGyreScholaMath(0)' created for font
-(fontspec)             'TeX Gyre Schola Math' with options
+(fontspec)             Font family 'STIXTwoMath(0)' created for font 'STIX Two
+(fontspec)             Math' with options
 (fontspec)             [BoldItalicFont={},ItalicFont={},SmallCapsFont={},Script=Math].
 (fontspec)              
 (fontspec)              This font family consists of the following NFSS
 (fontspec)             series/shapes:
 (fontspec)              
-(fontspec)             - 'normal' (m/n) with NFSS spec.: <->"TeX Gyre Schola
+(fontspec)             - 'normal' (m/n) with NFSS spec.: <->"STIX Two
 (fontspec)             Math/OT:script=math;language=dflt;"
 
 
 Package fontspec Info: 
-(fontspec)             Could not resolve font "TeX Gyre Schola Math/B" (it
-(fontspec)             probably doesn't exist).
+(fontspec)             Could not resolve font "STIX Two Math/B" (it probably
+(fontspec)             doesn't exist).
 
 
 Package fontspec Info: 
-(fontspec)             Font family 'TeXGyreScholaMath(1)' created for font
-(fontspec)             'TeX Gyre Schola Math' with options
-(fontspec)             [BoldItalicFont={},ItalicFont={},SmallCapsFont={},Script=Math,SizeFeatures={{Size=10.62-},{Size=8.22-10.62,Font=TeX
-(fontspec)             Gyre Schola Math,Style=MathScript},{Size=-8.22,Font=TeX
-(fontspec)             Gyre Schola Math,Style=MathScriptScript}}].
+(fontspec)             Font family 'STIXTwoMath(1)' created for font 'STIX Two
+(fontspec)             Math' with options
+(fontspec)             [BoldItalicFont={},ItalicFont={},SmallCapsFont={},Script=Math,SizeFeatures={{Size=10.2-},{Size=7.5-10.2,Font=STIX
+(fontspec)             Two Math,Style=MathScript},{Size=-7.5,Font=STIX Two
+(fontspec)             Math,Style=MathScriptScript}}].
 (fontspec)              
 (fontspec)              This font family consists of the following NFSS
 (fontspec)             series/shapes:
 (fontspec)              
-(fontspec)             - 'normal' (m/n) with NFSS spec.: <10.62->"TeX Gyre
-(fontspec)             Schola
-(fontspec)             Math/OT:script=math;language=dflt;"<8.22-10.62>"TeX
-(fontspec)             Gyre Schola
-(fontspec)             Math/OT:script=math;language=dflt;+ssty=0;"<-8.22>"TeX
-(fontspec)             Gyre Schola Math/OT:script=math;language=dflt;+ssty=1;"
+(fontspec)             - 'normal' (m/n) with NFSS spec.: <10.2->"STIX Two
+(fontspec)             Math/OT:script=math;language=dflt;"<7.5-10.2>"STIX Two
+(fontspec)             Math/OT:script=math;language=dflt;+ssty=0;"<-7.5>"STIX
+(fontspec)             Two Math/OT:script=math;language=dflt;+ssty=1;"
 
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
 (Font)              `operators' in the math version `normal' on input line 14.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/cmr/m/n --> TU/TeXGyreScholaMath(1)/m/n on input line 14.
+(Font)                  OT1/cmr/m/n --> TU/STIXTwoMath(1)/m/n on input line 14.
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
 (Font)              `operators' in the math version `bold' on input line 14.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/cmr/bx/n --> TU/TeXGyreScholaMath(1)/b/n on input line 14.
+(Font)                  OT1/cmr/bx/n --> TU/STIXTwoMath(1)/b/n on input line 14.
 
 Package fontspec Info: 
-(fontspec)             TeX Gyre Schola Math scale = 1.0001.
-
-
-Package fontspec Info: 
-(fontspec)             Could not resolve font "TeX Gyre Schola Math/B" (it
-(fontspec)             probably doesn't exist).
+(fontspec)             STIX Two Math scale = 1.0001.
 
 
 Package fontspec Info: 
-(fontspec)             TeX Gyre Schola Math scale = 1.0001.
+(fontspec)             Could not resolve font "STIX Two Math/B" (it probably
+(fontspec)             doesn't exist).
 
 
 Package fontspec Info: 
-(fontspec)             TeX Gyre Schola Math scale = 1.0001.
+(fontspec)             STIX Two Math scale = 1.0001.
 
 
 Package fontspec Info: 
-(fontspec)             TeX Gyre Schola Math scale = 1.0001.
+(fontspec)             STIX Two Math scale = 1.0001.
 
 
 Package fontspec Info: 
-(fontspec)             Font family 'TeXGyreScholaMath(2)' created for font
-(fontspec)             'TeX Gyre Schola Math' with options
-(fontspec)             [BoldItalicFont={},ItalicFont={},SmallCapsFont={},Script=Math,SizeFeatures={{Size=10.62-},{Size=8.22-10.62,Font=TeX
-(fontspec)             Gyre Schola Math,Style=MathScript},{Size=-8.22,Font=TeX
-(fontspec)             Gyre Schola
+(fontspec)             STIX Two Math scale = 1.0001.
+
+
+Package fontspec Info: 
+(fontspec)             Font family 'STIXTwoMath(2)' created for font 'STIX Two
+(fontspec)             Math' with options
+(fontspec)             [BoldItalicFont={},ItalicFont={},SmallCapsFont={},Script=Math,SizeFeatures={{Size=10.2-},{Size=7.5-10.2,Font=STIX
+(fontspec)             Two Math,Style=MathScript},{Size=-7.5,Font=STIX Two
 (fontspec)             Math,Style=MathScriptScript}},ScaleAgain=1.0001,FontAdjustment={\fontdimen
-(fontspec)             8\font =7.548pt\relax \fontdimen 9\font =4.74pt\relax
-(fontspec)             \fontdimen 10\font =4.74pt\relax \fontdimen 11\font
-(fontspec)             =7.704pt\relax \fontdimen 12\font =2.808pt\relax
-(fontspec)             \fontdimen 13\font =4.152pt\relax \fontdimen 14\font
-(fontspec)             =4.152pt\relax \fontdimen 15\font =3.444pt\relax
-(fontspec)             \fontdimen 16\font =2.868pt\relax \fontdimen 17\font
-(fontspec)             =2.868pt\relax \fontdimen 18\font =2.868pt\relax
-(fontspec)             \fontdimen 19\font =1.44pt\relax \fontdimen 22\font
-(fontspec)             =3.12pt\relax \fontdimen 20\font =0pt\relax \fontdimen
+(fontspec)             8\font =7.68pt\relax \fontdimen 9\font =7.02pt\relax
+(fontspec)             \fontdimen 10\font =5.64pt\relax \fontdimen 11\font
+(fontspec)             =7.68pt\relax \fontdimen 12\font =7.02pt\relax
+(fontspec)             \fontdimen 13\font =4.32pt\relax \fontdimen 14\font
+(fontspec)             =4.32pt\relax \fontdimen 15\font =3.024pt\relax
+(fontspec)             \fontdimen 16\font =2.52pt\relax \fontdimen 17\font
+(fontspec)             =2.52pt\relax \fontdimen 18\font =2.76pt\relax
+(fontspec)             \fontdimen 19\font =1.92pt\relax \fontdimen 22\font
+(fontspec)             =3.096pt\relax \fontdimen 20\font =0pt\relax \fontdimen
 (fontspec)             21\font =0pt\relax }].
 (fontspec)              
 (fontspec)              This font family consists of the following NFSS
 (fontspec)             series/shapes:
 (fontspec)              
 (fontspec)             - 'normal' (m/n) with NFSS spec.:
-(fontspec)             <10.62->s*[1.0001]"TeX Gyre Schola
-(fontspec)             Math/OT:script=math;language=dflt;"<8.22-10.62>s*[1.0001]"TeX
-(fontspec)             Gyre Schola
-(fontspec)             Math/OT:script=math;language=dflt;+ssty=0;"<-8.22>s*[1.0001]"TeX
-(fontspec)             Gyre Schola Math/OT:script=math;language=dflt;+ssty=1;"
+(fontspec)             <10.2->s*[1.0001]"STIX Two
+(fontspec)             Math/OT:script=math;language=dflt;"<7.5-10.2>s*[1.0001]"STIX
+(fontspec)             Two
+(fontspec)             Math/OT:script=math;language=dflt;+ssty=0;"<-7.5>s*[1.0001]"STIX
+(fontspec)             Two Math/OT:script=math;language=dflt;+ssty=1;"
 
 LaTeX Font Info:    Encoding `OMS' has changed to `TU' for symbol font
 (Font)              `symbols' in the math version `normal' on input line 14.
 LaTeX Font Info:    Overwriting symbol font `symbols' in version `normal'
-(Font)                  OMS/cmsy/m/n --> TU/TeXGyreScholaMath(2)/m/n on input line 14.
+(Font)                  OMS/cmsy/m/n --> TU/STIXTwoMath(2)/m/n on input line 14.
 LaTeX Font Info:    Encoding `OMS' has changed to `TU' for symbol font
 (Font)              `symbols' in the math version `bold' on input line 14.
 LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
-(Font)                  OMS/cmsy/b/n --> TU/TeXGyreScholaMath(2)/b/n on input line 14.
+(Font)                  OMS/cmsy/b/n --> TU/STIXTwoMath(2)/b/n on input line 14.
 
 Package fontspec Info: 
-(fontspec)             TeX Gyre Schola Math scale = 0.9999.
-
-
-Package fontspec Info: 
-(fontspec)             Could not resolve font "TeX Gyre Schola Math/B" (it
-(fontspec)             probably doesn't exist).
+(fontspec)             STIX Two Math scale = 0.9999.
 
 
 Package fontspec Info: 
-(fontspec)             TeX Gyre Schola Math scale = 0.9999.
+(fontspec)             Could not resolve font "STIX Two Math/B" (it probably
+(fontspec)             doesn't exist).
 
 
 Package fontspec Info: 
-(fontspec)             TeX Gyre Schola Math scale = 0.9999.
+(fontspec)             STIX Two Math scale = 0.9999.
 
 
 Package fontspec Info: 
-(fontspec)             TeX Gyre Schola Math scale = 0.9999.
+(fontspec)             STIX Two Math scale = 0.9999.
 
 
 Package fontspec Info: 
-(fontspec)             Font family 'TeXGyreScholaMath(3)' created for font
-(fontspec)             'TeX Gyre Schola Math' with options
-(fontspec)             [BoldItalicFont={},ItalicFont={},SmallCapsFont={},Script=Math,SizeFeatures={{Size=10.62-},{Size=8.22-10.62,Font=TeX
-(fontspec)             Gyre Schola Math,Style=MathScript},{Size=-8.22,Font=TeX
-(fontspec)             Gyre Schola
+(fontspec)             STIX Two Math scale = 0.9999.
+
+
+Package fontspec Info: 
+(fontspec)             Font family 'STIXTwoMath(3)' created for font 'STIX Two
+(fontspec)             Math' with options
+(fontspec)             [BoldItalicFont={},ItalicFont={},SmallCapsFont={},Script=Math,SizeFeatures={{Size=10.2-},{Size=7.5-10.2,Font=STIX
+(fontspec)             Two Math,Style=MathScript},{Size=-7.5,Font=STIX Two
 (fontspec)             Math,Style=MathScriptScript}},ScaleAgain=0.9999,FontAdjustment={\fontdimen
-(fontspec)             8\font =0.84pt\relax \fontdimen 9\font =1.2pt\relax
-(fontspec)             \fontdimen 10\font =1.2pt\relax \fontdimen 11\font
-(fontspec)             =1.2pt\relax \fontdimen 12\font =5.508pt\relax
+(fontspec)             8\font =0.816pt\relax \fontdimen 9\font =1.62pt\relax
+(fontspec)             \fontdimen 10\font =1.62pt\relax \fontdimen 11\font
+(fontspec)             =3.6pt\relax \fontdimen 12\font =8.04pt\relax
 (fontspec)             \fontdimen 13\font =0pt\relax }].
 (fontspec)              
 (fontspec)              This font family consists of the following NFSS
 (fontspec)             series/shapes:
 (fontspec)              
 (fontspec)             - 'normal' (m/n) with NFSS spec.:
-(fontspec)             <10.62->s*[0.9999]"TeX Gyre Schola
-(fontspec)             Math/OT:script=math;language=dflt;"<8.22-10.62>s*[0.9999]"TeX
-(fontspec)             Gyre Schola
-(fontspec)             Math/OT:script=math;language=dflt;+ssty=0;"<-8.22>s*[0.9999]"TeX
-(fontspec)             Gyre Schola Math/OT:script=math;language=dflt;+ssty=1;"
+(fontspec)             <10.2->s*[0.9999]"STIX Two
+(fontspec)             Math/OT:script=math;language=dflt;"<7.5-10.2>s*[0.9999]"STIX
+(fontspec)             Two
+(fontspec)             Math/OT:script=math;language=dflt;+ssty=0;"<-7.5>s*[0.9999]"STIX
+(fontspec)             Two Math/OT:script=math;language=dflt;+ssty=1;"
 
 LaTeX Font Info:    Encoding `OMX' has changed to `TU' for symbol font
 (Font)              `largesymbols' in the math version `normal' on input line 14.
 LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
-(Font)                  OMX/cmex/m/n --> TU/TeXGyreScholaMath(3)/m/n on input line 14.
+(Font)                  OMX/cmex/m/n --> TU/STIXTwoMath(3)/m/n on input line 14.
 LaTeX Font Info:    Encoding `OMX' has changed to `TU' for symbol font
 (Font)              `largesymbols' in the math version `bold' on input line 14.
 LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
-(Font)                  OMX/cmex/m/n --> TU/TeXGyreScholaMath(3)/b/n on input line 14.
+(Font)                  OMX/cmex/m/n --> TU/STIXTwoMath(3)/b/n on input line 14.
  (C:\Users\moisa\AppData\Local\Programs\MiKTeX\tex/fonts/cascadiamono-otf\CascadiaMono.fontspec)
 
 Package fontspec Info: 
@@ -671,18 +669,18 @@ File: compacompra_logo.jpg Graphic file (type bmp)
 [1
 
 ] (report.toc
-LaTeX Font Info:    Font shape `TU/TeXGyreScholaMath(2)/m/n' will be
+LaTeX Font Info:    Font shape `TU/STIXTwoMath(2)/m/n' will be
 (Font)              scaled to size 12.00128pt on input line 4.
-LaTeX Font Info:    Font shape `TU/TeXGyreScholaMath(2)/m/n' will be
-(Font)              scaled to size 9.24098pt on input line 4.
-LaTeX Font Info:    Font shape `TU/TeXGyreScholaMath(2)/m/n' will be
-(Font)              scaled to size 7.20076pt on input line 4.
-LaTeX Font Info:    Font shape `TU/TeXGyreScholaMath(3)/m/n' will be
+LaTeX Font Info:    Font shape `TU/STIXTwoMath(2)/m/n' will be
+(Font)              scaled to size 8.40088pt on input line 4.
+LaTeX Font Info:    Font shape `TU/STIXTwoMath(2)/m/n' will be
+(Font)              scaled to size 6.60071pt on input line 4.
+LaTeX Font Info:    Font shape `TU/STIXTwoMath(3)/m/n' will be
 (Font)              scaled to size 11.99872pt on input line 4.
-LaTeX Font Info:    Font shape `TU/TeXGyreScholaMath(3)/m/n' will be
-(Font)              scaled to size 9.23901pt on input line 4.
-LaTeX Font Info:    Font shape `TU/TeXGyreScholaMath(3)/m/n' will be
-(Font)              scaled to size 7.19922pt on input line 4.
+LaTeX Font Info:    Font shape `TU/STIXTwoMath(3)/m/n' will be
+(Font)              scaled to size 8.3991pt on input line 4.
+LaTeX Font Info:    Font shape `TU/STIXTwoMath(3)/m/n' will be
+(Font)              scaled to size 6.59929pt on input line 4.
 )
 \tf@toc=\write4
 \openout4 = `report.toc'.
@@ -700,12 +698,12 @@ Package rerunfilecheck Info: File `report.out' has not changed.
 (rerunfilecheck)             Checksum: 69AFBA4B422069E76F1BCA074F3B87C5;969.
  ) 
 Here is how much of TeX's memory you used:
- 17208 strings out of 408640
- 314375 string characters out of 5744798
+ 17205 strings out of 408640
+ 314149 string characters out of 5744798
  891381 words of memory out of 5000000
- 40065 multiletter control sequences out of 15000+600000
- 561333 words of font info for 80 fonts, out of 8000000 for 9000
+ 40063 multiletter control sequences out of 15000+600000
+ 561320 words of font info for 79 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  79i,5n,107p,450b,386s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on report.xdv (3 pages, 40904 bytes).
+Output written on report.xdv (3 pages, 40656 bytes).
