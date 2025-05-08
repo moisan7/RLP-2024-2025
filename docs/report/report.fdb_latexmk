@@ -1,10 +1,10 @@
 # Fdb version 4
-["xdvipdfmx"] 1746688828.24967 "report.xdv" "report.pdf" "report" 1746688829.54745 0
-  "report.xdv" 1746688827 42888 688e11b5f88c27e0bbee5d23a860a7bd "xelatex"
+["xdvipdfmx"] 1746695141.54882 "report.xdv" "report.pdf" "report" 1746695142.15336 0
+  "report.xdv" 1746695141 40904 a6abbb9d4935351f3f5b2a20807ca499 "xelatex"
   (generated)
   "report.pdf"
   (rewritten before read)
-["xelatex"] 1746688825.92272 "c:/Users/moisa/Documents/UAB Docs/RPL/RLP-2024-2025/docs/report/report.tex" "report.xdv" "report" 1746688829.53509 0
+["xelatex"] 1746695139.34605 "c:/Users/moisa/Documents/UAB Docs/RPL/RLP-2024-2025/docs/report/report.tex" "report.xdv" "report" 1746695142.14762 0
   "C:/Users/moisa/AppData/Local/MiKTeX/miktex/data/le/xetex/xelatex.fmt" 1742574144 25521436 d4932753c1d11b4695e4c79805e55de1 ""
   "C:/Users/moisa/AppData/Local/Programs/MiKTeX/fonts/tfm/adobe/zapfding/pzdr.tfm" 1136768654 1528 7e12f4c0fcf5a072cebdcfbfc610f54c ""
   "C:/Users/moisa/AppData/Local/Programs/MiKTeX/fonts/tfm/public/cm/cmmi12.tfm" 1136765053 1524 4414a8315f39513458b80dfc63bff03a ""
@@ -13,8 +13,8 @@
   "C:/Users/moisa/AppData/Local/Programs/MiKTeX/tex/fonts/cascadiamono-otf/CascadiaMono.fontspec" 1736606398 235 5d239e21476392ee12db8f6c704f0fb9 ""
   "C:/Users/moisa/AppData/Local/Programs/MiKTeX/tex/generic/atbegshi/atbegshi.sty" 1575571100 24708 5584a51a7101caf7e6bbf1fc27d8f7b1 ""
   "C:/Users/moisa/AppData/Local/Programs/MiKTeX/tex/generic/babel/babel.sty" 1739553521 143388 b008e1666520ff43d0878397f2926242 ""
-  "C:/Users/moisa/AppData/Local/Programs/MiKTeX/tex/generic/babel/locale/es/babel-es.ini" 1739553522 4345 33a8cc6f0a7c6afcb84895b2c963a4e5 ""
-  "C:/Users/moisa/AppData/Local/Programs/MiKTeX/tex/generic/babel/locale/es/babel-spanish.tex" 1739553522 336 a1c472f674f6f0c25a2c95ad8c7ad024 ""
+  "C:/Users/moisa/AppData/Local/Programs/MiKTeX/tex/generic/babel/locale/en/babel-en.ini" 1739553522 3966 caeee5a9e5771d4446aa1ca9015ba1b2 ""
+  "C:/Users/moisa/AppData/Local/Programs/MiKTeX/tex/generic/babel/locale/en/babel-english.tex" 1739553522 336 ed676b5e7dfd862bc78d634f6a973f37 ""
   "C:/Users/moisa/AppData/Local/Programs/MiKTeX/tex/generic/babel/xebabel.def" 1739553521 18647 20e1dbde92e1fb200b527e2910aff7ff ""
   "C:/Users/moisa/AppData/Local/Programs/MiKTeX/tex/generic/bigintcalc/bigintcalc.sty" 1576433602 40635 c40361e206be584d448876bba8a64a3b ""
   "C:/Users/moisa/AppData/Local/Programs/MiKTeX/tex/generic/bitset/bitset.sty" 1575926576 33961 6b5c75130e435b2bfdb9f480a09a39f9 ""
@@ -36,7 +36,7 @@
   "C:/Users/moisa/AppData/Local/Programs/MiKTeX/tex/latex/amsmath/amstext.sty" 1731152860 2444 71618ea5f2377e33b04fb97afdd0eac2 ""
   "C:/Users/moisa/AppData/Local/Programs/MiKTeX/tex/latex/arabi/bblopts.cfg" 1705750854 902 c30e5c373bc58bde21f8f63a3091626f ""
   "C:/Users/moisa/AppData/Local/Programs/MiKTeX/tex/latex/atveryend/atveryend.sty" 1729262840 1695 be6b4d13b33db697fd3fd30b24716c1a ""
-  "C:/Users/moisa/AppData/Local/Programs/MiKTeX/tex/latex/babel-spanish/spanish.ldf" 1622279580 26965 3b6d1655ad716f98e788b1fb9f2e87b8 ""
+  "C:/Users/moisa/AppData/Local/Programs/MiKTeX/tex/latex/babel-english/english.ldf" 1623001666 7008 9ff5fdcc865b01beca2b0fe4a46231d4 ""
   "C:/Users/moisa/AppData/Local/Programs/MiKTeX/tex/latex/base/article.cls" 1738160243 20144 63d8bacaf52e5abf4db3bc322373e1d4 ""
   "C:/Users/moisa/AppData/Local/Programs/MiKTeX/tex/latex/base/atbegshi-ltx.sty" 1738160243 2963 d8ec5a1b4e0a106c5c737900202763e4 ""
   "C:/Users/moisa/AppData/Local/Programs/MiKTeX/tex/latex/base/atveryend-ltx.sty" 1738160243 2378 14b657ee5031da98cf91648f19642694 ""
@@ -79,12 +79,12 @@
   "C:/Users/moisa/AppData/Local/Programs/MiKTeX/tex/latex/url/url.sty" 1388490452 12796 8edb7d69a20b857904dd0ea757c14ec9 ""
   "C:/Users/moisa/AppData/Local/Programs/MiKTeX/tex/latex/xcolor/xcolor.sty" 1729265222 55384 b454dec21c2d9f45ec0b793f0995b992 ""
   "Logo_uab.png" 1746608097 50804 a8443aa253d4422c98fc3319dbefdfff ""
-  "c:/Users/moisa/Documents/UAB Docs/RPL/RLP-2024-2025/docs/report/report.tex" 1746688796 5749 5e95606144c7ee84557b18755e3743ba ""
+  "c:/Users/moisa/Documents/UAB Docs/RPL/RLP-2024-2025/docs/report/report.tex" 1746695138 5700 6d257c9cef6f2fd70df1da40f9c6fce6 ""
   "compacompra_logo.jpg" 1745409264 83065 a4db35ee91a627f1878b8e5913d2349a ""
-  "report.aux" 1746688827 990 a70f24f4e2a8913102c227cb7503575c "xelatex"
-  "report.out" 1746688827 939 ec26078cc3ca73d432b83af50cbb61c4 "xelatex"
-  "report.tex" 1746688796 5749 5e95606144c7ee84557b18755e3743ba ""
-  "report.toc" 1746688827 464 b741eac2ce6eec6dbef18c812f4215c2 "xelatex"
+  "report.aux" 1746695141 912 0c14eb870be5331a9d7753486dbf5c39 "xelatex"
+  "report.out" 1746695141 969 69afba4b422069e76f1bca074f3b87c5 "xelatex"
+  "report.tex" 1746695138 5700 6d257c9cef6f2fd70df1da40f9c6fce6 ""
+  "report.toc" 1746695141 468 f803540243e3f8459c435c49533b9804 "xelatex"
   (generated)
   "report.aux"
   "report.log"

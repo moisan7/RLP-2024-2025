@@ -1,6 +1,6 @@
-\babel@toc {spanish}{}\relax 
-\contentsline {section}{\numberline {1}Introducción}{1}{section.1}%
-\contentsline {section}{\numberline {2}Marco Teórico y Contextualización}{1}{section.2}%
-\contentsline {subsection}{\numberline {2.1}Localización 2D}{1}{subsection.2.1}%
-\contentsline {subsection}{\numberline {2.2}Algoritmo de Path Finding: D* Lite}{2}{subsection.2.2}%
-\contentsline {section}{\numberline {3}Descripción del Sistema CompaCompra}{2}{section.3}%
+\babel@toc {english}{}\relax 
+\contentsline {section}{\numberline {1}Introduction}{1}{section.1}%
+\contentsline {section}{\numberline {2}Theoretical Framework and Contextualization}{1}{section.2}%
+\contentsline {subsection}{\numberline {2.1}2D Localization}{1}{subsection.2.1}%
+\contentsline {subsection}{\numberline {2.2}Path Finding Algorithm: D* Lite}{2}{subsection.2.2}%
+\contentsline {section}{\numberline {3}Description of the CompaCompra System}{2}{section.3}%

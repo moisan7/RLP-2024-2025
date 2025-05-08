@@ -1,116 +1,116 @@
 \documentclass[a4paper,12pt]{article}
-\usepackage{fontspec} % Permite usar fuentes modernas
-\usepackage{xcolor} % Para definir colores
-\usepackage{graphicx} % Para incluir imágenes
-\usepackage{titling} % Para personalizar la portada
-\usepackage{amsmath} % Para matemáticas avanzadas
-\usepackage{hyperref} % Para enlaces y referencias
-\usepackage{unicode-math} % Para usar matemáticas Unicode
-\usepackage[margin=1in]{geometry} % Para ajustar márgenes
-\usepackage[spanish]{babel} % Para el idioma español
+\usepackage{fontspec} % Allows using modern fonts
+\usepackage{xcolor} % For defining colors
+\usepackage{graphicx} % For including images
+\usepackage{titling} % For customizing the title page
+\usepackage{amsmath} % For advanced mathematics
+\usepackage{hyperref} % For links and references
+\usepackage{unicode-math} % For using Unicode mathematics
+\usepackage[margin=1in]{geometry} % For adjusting margins
+\usepackage[english]{babel} % For the Spanish language (Note: The option is 'english', but the comment says Spanish. The content is in Spanish.)
 
-\setmainfont{Georgia} % Cambia la fuente principal a Georgia
-\setmathfont{TeX Gyre Schola Math} % Cambia la fuente de matemáticas a TeX Gyre Schola Math
-\setmonofont{Cascadia Mono} % Cambia la fuente monoespaciada a Consolas
+\setmainfont{Georgia} % Changes the main font to Georgia
+\setmathfont{TeX Gyre Schola Math} % Changes the math font to TeX Gyre Schola Math
+\setmonofont{Cascadia Mono} % Changes the monospaced font to Cascadia Mono (Original comment said Consolas, but command is Cascadia Mono)
 
 \begin{document}
 
 % ============================
-% Portada
+% Title Page
 % ============================
 \begin{titlepage}
     \centering
     \vspace*{2cm}
 
-    {\Huge\bfseries \textsc{Compa - Compra} \\ Carrito de la compra autónomo  \par}
+    {\Huge\bfseries \textsc{Compa - Compra} \\ Autonomous Shopping Cart \par}
 
     \vspace{1.5cm}
-    {\Large\bfseries Universitat Autònoma de Barcelona (UAB)
-    
-    Escola d'enginyeria informática - Robótica 2025 \par}
+    {\Large\bfseries Autonomous University of Barcelona (UAB)
+
+    School of Computer Engineering - Robotics 2025 \par}
 
     \vspace{0.5cm}
 
-    \includegraphics[width=0.5\textwidth]{Logo_uab.png} % Logo de la UAB (debe estar en la misma carpeta que el documento)
+    \includegraphics[width=0.5\textwidth]{Logo_uab.png} % UAB Logo (must be in the same folder as the document)
 
     \vspace{0.5cm}
-    {\large Pol Tomé, 
+    {\large Pol Tomé,
 
-    Adrià Fernandez Mata, 
+    Adrià Fernandez Mata,
 
     David Madueño Noguer,
 
-    Tiago David Nunes Rodrigues, 
+    Tiago David Nunes Rodrigues,
 
     Moisés Sánchez Pin
      \par}
 
     \vspace{2cm}
-    \includegraphics[width=0.4\textwidth]{compacompra_logo.jpg} % Logo de la UAB (debe estar en la misma carpeta que el documento)
+    \includegraphics[width=0.4\textwidth]{compacompra_logo.jpg} % CompaCompra Logo (must be in the same folder as the document)
 
     \vfill
-    {\Large \today}
+    {\Large \today} % This would render as the current date
 
 \end{titlepage}
 
 % ============================
-% Tabla de contenido
+% Table of Contents
 % ============================
-\tableofcontents
+\tableofcontents % Translates to "Table of Contents" when rendered
 
 % ============================
-% Abstract del documento
+% Abstract of the document
 % ============================
 \begin{abstract}
-Compa- Compra es un asistente de compra autónomo que se encarga de guíar y asistir al usuario del establecimiento para completar sus compras de forma fácil y sencilla. El usuario se comunica con ComCom mediante una aplicación en la que se especifican los productos.
-\textbf{¡Haz la lista y ComCom te guía!}
+Compa-Compra is an autonomous shopping assistant that guides and assists the store user to complete their shopping easily and simply. The user communicates with ComCom through an application where products are specified.
+\textbf{Make your list and ComCom will guide you!}
 \end{abstract}
 
 % ============================
-% Introducción del documento
-% ============================  
-\section{Introducción}
-El acto de comprar es una actividad cotidiana, pero no siempre es eficiente. 
-Ya sea por la dificultad de encontrar productos, la congestión en los 
-pasillos o la necesidad de comparar opciones, recorrer el supermercado 
-puede convertirse en una tarea tediosa. \textbf{ Compa Compra } es un asistente 
-autónomo diseñado para mejorar la experiencia de compra de cualquier usuario, 
-independientemente de su perfil, edad o necesidades específicas.  
+% Introduction of the document
+% ============================
+\section{Introduction}
+The act of shopping is a daily activity, but it is not always efficient.
+Whether due to the difficulty of finding products, congestion in the
+aisles, or the need to compare options, navigating the supermarket
+can become a tedious task. \textbf{Compa Compra} is an autonomous assistant
+designed to improve the shopping experience for any user,
+regardless of their profile, age, or specific needs.
 
-A través de una aplicación multimedia, el cliente introduce su lista de 
-compras, y el robot ComCom procesa la mejor ruta dentro del establecimiento 
-usando técnicas avanzadas de localización y planificación de trayectos. 
-Gracias al algoritmo \textbf{*D* Lite} y el uso de balizas \textbf{Bluetooth}, \textbf{ Compa Compra } 
-optimiza el tiempo de compra y facilita el acceso eficiente a cada producto.  
+Through a multimedia application, the customer enters their shopping
+list, and the ComCom robot processes the best route within the establishment
+using advanced localization and path planning techniques.
+Thanks to the \textbf{D* Lite} algorithm and the use of \textbf{Bluetooth} beacons, \textbf{Compa Compra}
+optimizes shopping time and facilitates efficient access to each product.
 
-\section{Marco Teórico y Contextualización}
+\section{Theoretical Framework and Contextualization}
 
-El proyecto \textbf{CompaCompra} se fundamenta en dos áreas clave de la robótica y la navegación autónoma: la \textbf{localización 2D} mediante trilateración y la planificación de rutas con \textbf{D* Lite}. Estos conceptos permiten que el asistente guíe al usuario dentro del supermercado con precisión y adaptabilidad.
+The \textbf{CompaCompra} project is based on two key areas of robotics and autonomous navigation: \textbf{2D localization} using trilateration and route planning with \textbf{D* Lite}. These concepts allow the assistant to guide the user within the supermarket with precision and adaptability.
 
-\subsection{Localización 2D}
-Uno de los principales retos de la navegación autónoma es la \textbf{localización en interiores}. Para determinar la posición de \textbf{ComCom}, se emplea trilateración 2D con cuatro balizas Bluetooth fijas en las esquinas del supermercado.
+\subsection{2D Localization}
+One of the main challenges of autonomous navigation is \textbf{indoor localization}. To determine \textbf{ComCom}'s position, 2D trilateration is used with four fixed Bluetooth beacons in the corners of the supermarket.
 
-El método utiliza la medición de la \textbf{intensidad de señal recibida (RSSI)} de cada baliza para estimar la distancia entre el robot y las referencias fijas. Sin embargo, la señal RSSI puede verse afectada por interferencias, por lo que se aplican técnicas de \textbf{filtrado y corrección de errores}, como la media móvil y el filtro de Kalman.
+The method uses the measurement of the \textbf{Received Signal Strength Indicator (RSSI)} from each beacon to estimate the distance between the robot and the fixed references. However, the RSSI signal can be affected by interference, so \textbf{filtering and error correction} techniques, such as moving average and Kalman filter, are applied.
 
-Una vez obtenida la posición estimada \((x, y)\), se ajusta a la cuadrícula más cercana del supermercado, definida como una malla de \textbf{0.5m² por nodo}. Este proceso permite una representación discreta del espacio de navegación y facilita el cálculo de rutas.
+Once the estimated position \((x, y)\) is obtained, it is adjusted to the nearest supermarket grid cell, defined as a mesh of \textbf{0.5m² per node}. This process allows for a discrete representation of the navigation space and facilitates route calculation.
 
-Para más información sobre trilateración, consultar la documentación:
-\href{https://es.wikipedia.org/wiki/Trilateraci%C3%B3n}{Trilateración en Wikipedia}
+For more information on trilateration, consult the documentation:
+\href{https://en.wikipedia.org/wiki/Trilateration}{Trilateration on Wikipedia}
 
-\subsection{Algoritmo de Path Finding: D* Lite}
-El desplazamiento óptimo del robot se gestiona mediante \textbf{D* Lite}, un algoritmo eficiente de búsqueda de rutas en entornos dinámicos. A partir de la posición del usuario y los productos en la lista de compra, el sistema calcula la trayectoria ideal en la malla de nodos.
+\subsection{Path Finding Algorithm: D* Lite}
+The optimal movement of the robot is managed by \textbf{D* Lite}, an efficient route-finding algorithm in dynamic environments. Based on the user's position and the products on the shopping list, the system calculates the ideal trajectory on the node grid.
 
-Cada nodo del supermercado puede clasificarse en:
+Each node in the supermarket can be classified as:
 \begin{itemize}
-\item \textbf{Libre:} zonas transitables sin obstáculos.
-\item \textbf{Ocupado:} áreas bloqueadas por estanterías, obstáculos o carros de otros clientes.
+\item \textbf{Free:} traversable areas without obstacles.
+\item \textbf{Occupied:} areas blocked by shelves, obstacles, or other customers' carts.
 \end{itemize}
 
-Inicialmente, se consideran todos los obstáculos conocidos, pero el camino se \textbf{recalcula dinámicamente} si \textbf{ComCom} detecta nuevos impedimentos durante su recorrido. Esto permite que el robot se adapte en tiempo real a los cambios en el entorno.
+Initially, all known obstacles are considered, but the path is \textbf{dynamically recalculated} if \textbf{ComCom} detects new impediments during its journey. This allows the robot to adapt in real-time to changes in the environment.
 
-Para más información sobre \textbf{D* Lite}, consultar la documentación:
-\href{https://es.wikipedia.org/wiki/D*#D*_Lite}{D* Lite en Wikipedia}
+For more information on \textbf{D* Lite}, consult the documentation:
+\href{https://en.wikipedia.org/wiki/D*_Lite}{D* Lite on Wikipedia} % (Original link was to D*, I've pointed to D* Lite)
 
-\section{Descripción del Sistema CompaCompra}
+\section{Description of the CompaCompra System}
 
 \end{document}
