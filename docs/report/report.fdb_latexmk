@@ -1,10 +1,10 @@
 # Fdb version 4
-["xdvipdfmx"] 1746634941.4289 "report.xdv" "report.pdf" "report" 1746634942.3578 0
-  "report.xdv" 1746634941 42868 fcf156f3018e4f82a8b3570fa758fdff "xelatex"
+["xdvipdfmx"] 1746688828.24967 "report.xdv" "report.pdf" "report" 1746688829.54745 0
+  "report.xdv" 1746688827 42888 688e11b5f88c27e0bbee5d23a860a7bd "xelatex"
   (generated)
   "report.pdf"
   (rewritten before read)
-["xelatex"] 1746634939.48574 "c:/Users/moisa/Documents/UAB Docs/RPL/RLP-2024-2025/docs/report/report.tex" "report.xdv" "report" 1746634942.35425 0
+["xelatex"] 1746688825.92272 "c:/Users/moisa/Documents/UAB Docs/RPL/RLP-2024-2025/docs/report/report.tex" "report.xdv" "report" 1746688829.53509 0
   "C:/Users/moisa/AppData/Local/MiKTeX/miktex/data/le/xetex/xelatex.fmt" 1742574144 25521436 d4932753c1d11b4695e4c79805e55de1 ""
   "C:/Users/moisa/AppData/Local/Programs/MiKTeX/fonts/tfm/adobe/zapfding/pzdr.tfm" 1136768654 1528 7e12f4c0fcf5a072cebdcfbfc610f54c ""
   "C:/Users/moisa/AppData/Local/Programs/MiKTeX/fonts/tfm/public/cm/cmmi12.tfm" 1136765053 1524 4414a8315f39513458b80dfc63bff03a ""
@@ -79,12 +79,12 @@
   "C:/Users/moisa/AppData/Local/Programs/MiKTeX/tex/latex/url/url.sty" 1388490452 12796 8edb7d69a20b857904dd0ea757c14ec9 ""
   "C:/Users/moisa/AppData/Local/Programs/MiKTeX/tex/latex/xcolor/xcolor.sty" 1729265222 55384 b454dec21c2d9f45ec0b793f0995b992 ""
   "Logo_uab.png" 1746608097 50804 a8443aa253d4422c98fc3319dbefdfff ""
-  "c:/Users/moisa/Documents/UAB Docs/RPL/RLP-2024-2025/docs/report/report.tex" 1746619211 5731 e529919f725ac026ee5e4facd4d9cd9c ""
+  "c:/Users/moisa/Documents/UAB Docs/RPL/RLP-2024-2025/docs/report/report.tex" 1746688796 5749 5e95606144c7ee84557b18755e3743ba ""
   "compacompra_logo.jpg" 1745409264 83065 a4db35ee91a627f1878b8e5913d2349a ""
-  "report.aux" 1746634941 990 a70f24f4e2a8913102c227cb7503575c "xelatex"
-  "report.out" 1746634941 939 ec26078cc3ca73d432b83af50cbb61c4 "xelatex"
-  "report.tex" 1746619211 5731 e529919f725ac026ee5e4facd4d9cd9c ""
-  "report.toc" 1746634941 464 b741eac2ce6eec6dbef18c812f4215c2 "xelatex"
+  "report.aux" 1746688827 990 a70f24f4e2a8913102c227cb7503575c "xelatex"
+  "report.out" 1746688827 939 ec26078cc3ca73d432b83af50cbb61c4 "xelatex"
+  "report.tex" 1746688796 5749 5e95606144c7ee84557b18755e3743ba ""
+  "report.toc" 1746688827 464 b741eac2ce6eec6dbef18c812f4215c2 "xelatex"
   (generated)
   "report.aux"
   "report.log"
