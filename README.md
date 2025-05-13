@@ -8,45 +8,49 @@ Compa-Compra is a general purpose autonomous shopping assistant that guides and 
 
 ### Components
 
-<div style="display: flex; flex-wrap: wrap; gap: 20px;">
+<style>
+  .grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 20px;
+    text-align: center;
+  }
+</style>
 
-  <div style="text-align: center;">
-    <img src="docs\report\compacompra_logo.jpg" alt="Component 1" width="150"/>
-    <p><a href="LINK_1">Component 1 </a></p>
+<div class="grid-container">
+  <div>
+    <img src="docs/report/compacompra_logo.jpg" alt="Component 1" width="150"/>
+    <p><a href="LINK_1">Component 1</a></p>
   </div>
 
-  <div style="text-align: center;">
-    <img src="docs\report\compacompra_logo.jpg" alt="Component 2" width="150"/>
-    <p><a href="LINK_2">Component 2 </a></p>
+  <div>
+    <img src="docs/report/compacompra_logo.jpg" alt="Component 2" width="150"/>
+    <p><a href="LINK_2">Component 2</a></p>
   </div>
 
-  <div style="text-align: center;">
-    <img src="docs\report\compacompra_logo.jpg" alt="Component 3" width="150"/>
-    <p><a href="LINK_3">Component 3 </a></p>
+  <div>
+    <img src="docs/report/compacompra_logo.jpg" alt="Component 3" width="150"/>
+    <p><a href="LINK_3">Component 3</a></p>
   </div>
-
 </div>
 
-### 3D Printed Components
-
-<div style="display: flex; flex-wrap: wrap; gap: 20px;">
-
-  <div style="text-align: center;">
-    <img src="docs\report\compacompra_logo.jpg" alt="3D Print 1" width="150"/>
+<div class="grid-container">
+  <div>
+    <img src="docs/report/compacompra_logo.jpg" alt="3D Print 1" width="150"/>
     <p><a href="LINK_4">3D Print 1</a></p>
   </div>
 
-  <div style="text-align: center;">
-    <img src="docs\report\compacompra_logo.jpg" alt="3D Print 2" width="150"/>
+  <div>
+    <img src="docs/report/compacompra_logo.jpg" alt="3D Print 2" width="150"/>
     <p><a href="LINK_5">3D Print 2</a></p>
   </div>
 
-  <div style="text-align: center;">
-    <img src="docs\report\compacompra_logo.jpg" alt="3D Print 3" width="150"/>
+  <div>
+    <img src="docs/report/compacompra_logo.jpg" alt="3D Print 3" width="150"/>
     <p><a href="LINK_6">3D Print 3</a></p>
   </div>
-
 </div>
+
 
 
 ### Connection Diagram
