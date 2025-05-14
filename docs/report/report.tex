@@ -64,6 +64,8 @@
 \begin{abstract}
 Compa-Compra is an autonomous shopping assistant that guides and assists the store user to complete their shopping easily and simply. The user communicates with ComCom through an application where products are specified.
 \textbf{Make your list and ComCom will guide you!}
+
+[Aquí habría que añadir unas pinceladas de los resultados y funcionalidades]
 \end{abstract}
 
 % ============================
@@ -97,7 +99,7 @@ Once the estimated position \((x, y)\) is obtained, it is adjusted to the neares
 For more information on trilateration, consult the documentation:
 \href{https://en.wikipedia.org/wiki/Trilateration}{Trilateration on Wikipedia}
 
-\subsection{Path Finding Algorithm: D* Lite}
+\subsection{Path Finding Algorithm: D* Lite [TO BE REWRITTEN]}
 The optimal movement of the robot is managed by \textbf{D* Lite}, an efficient route-finding algorithm in dynamic environments. Based on the user's position and the products on the shopping list, the system calculates the ideal trajectory on the node grid.
 
 Each node in the supermarket can be classified as:
@@ -111,6 +113,75 @@ Initially, all known obstacles are considered, but the path is \textbf{dynamical
 For more information on \textbf{D* Lite}, consult the documentation:
 \href{https://en.wikipedia.org/wiki/D*_Lite}{D* Lite on Wikipedia} % (Original link was to D*, I've pointed to D* Lite)
 
-\section{Description of the CompaCompra System}
+\section{Description of the CompaCompra System [TO BE WRITTEN, THESE ARE JUST GUIDE POINTS TO DEVELOP]}
+
+\subsection{General Architecture}
+\begin{itemize}
+\item System block diagram (integration of hardware, sensors, beacons, and app)
+\item Description of the main modules
+\end{itemize}
+
+\subsection{2D Localization}
+\begin{itemize}
+\item Description of the node grid (supermarket area modeled as 0.5m² nodes)
+\item Function of Bluetooth beacons and RSSI-based position estimation
+\item Position correction and rounding process
+\end{itemize}
+
+\subsection{Pathfinding}
+\begin{itemize}
+\item Details on the D* Lite algorithm and its use for optimal route calculation
+\item Consideration of obstacles and dynamic updates to the route
+\end{itemize}
+
+\subsection{User Interaction}
+\begin{itemize}
+\item Communication flow between the multimedia application and the robot
+\item User interface and steps to generate the shopping list
+\end{itemize}
+
+\section{Methodology}
+\begin{itemize}
+\item Description of the implementation of various algorithms and techniques
+\item Tools and technologies used (software, hardware, communication protocols)
+\item Testing and validation procedures, including simulated or real supermarket environments
+\end{itemize}
+
+\section{Analysis of Results and Evaluation}
+\begin{itemize}
+\item Presentation of localization test results (accuracy, error rate, response to obstacles)
+\item Comparison between planned and actual trajectory
+\item Use of graphs and tables for visual representation of results
+\item Evaluation of user-robot interaction and feedback
+\item Graphical documentation (e.g., videos, photos or environment schemes)
+\end{itemize}
+
+\section{Discussion}
+\begin{itemize}
+\item Interpretation of results in relation to stated objectives
+\item Identification of limitations and possible error sources (e.g., RSSI signal interference, supermarket layout changes)
+\item Improvement proposals and reflections on system applicability in other environments
+\end{itemize}
+\section{Conclusions and Recommendations}
+\begin{itemize}
+\item Summary of the most relevant findings
+\item Impact of the Compacompra system on the shopping experience
+\item Recommendations for future research or improvements in design and functionality
+\end{itemize}
+
+\section{Bibliography / References}
+\begin{itemize}
+\item List of all sources consulted, following a consistent citation style (APA, IEEE, etc.)
+\item Inclusion of technical documentation, articles, and Wikipedia entries (e.g., on trilateration and D* Lite)
+\end{itemize}
+
+\section{Annexes (Optional)}
+\begin{itemize}
+\item Relevant source codes
+\item Additional system diagrams
+\item Raw data or complete test results
+\item Graphical documentation (e.g., photos or environment schemes)
+\end{itemize}
+
 
 \end{document}

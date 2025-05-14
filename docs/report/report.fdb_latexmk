@@ -1,11 +1,11 @@
 # Fdb version 4
-["xdvipdfmx"] 1746701754.81352 "report.xdv" "report.pdf" "report" 1746701755.42844 0
-  "report.xdv" 1746701754 40656 de09eaed52a56a015750f7d7b0c55ffb "xelatex"
+["xdvipdfmx"] 1746780099.02242 "report.xdv" "report.pdf" "report" 1746780100.11177 0
+  "report.xdv" 1746780098 76212 506da470d5ff1f7ec12fd1be38ab55d2 "xelatex"
   (generated)
   "report.pdf"
   (rewritten before read)
-["xelatex"] 1746701752.84806 "c:/Users/moisa/Documents/UAB Docs/RPL/RLP-2024-2025/docs/report/report.tex" "report.xdv" "report" 1746701755.42541 0
-  "C:/Users/moisa/AppData/Local/MiKTeX/miktex/data/le/xetex/xelatex.fmt" 1742574144 25521436 d4932753c1d11b4695e4c79805e55de1 ""
+["xelatex"] 1746780096.14592 "e:/UAB Projects/RLP/RLP-2024-2025/docs/report/report.tex" "report.xdv" "report" 1746780100.10144 0
+  "C:/Users/moisa/AppData/Local/MiKTeX/miktex/data/le/xetex/xelatex.fmt" 1742652496 25521436 76f400134e1764658d4b18f6d2e32547 ""
   "C:/Users/moisa/AppData/Local/Programs/MiKTeX/fonts/tfm/adobe/zapfding/pzdr.tfm" 1136768654 1528 7e12f4c0fcf5a072cebdcfbfc610f54c ""
   "C:/Users/moisa/AppData/Local/Programs/MiKTeX/fonts/tfm/public/cm/cmmi12.tfm" 1136765053 1524 4414a8315f39513458b80dfc63bff03a ""
   "C:/Users/moisa/AppData/Local/Programs/MiKTeX/fonts/tfm/public/cm/cmmi6.tfm" 1136765053 1512 f21f83efb36853c0b70002322c1ab3ad ""
@@ -78,13 +78,13 @@
   "C:/Users/moisa/AppData/Local/Programs/MiKTeX/tex/latex/unicode-math/unicode-math.sty" 1691937353 1474 b42cfbe849cb22ed1c0632800327884f ""
   "C:/Users/moisa/AppData/Local/Programs/MiKTeX/tex/latex/url/url.sty" 1388490452 12796 8edb7d69a20b857904dd0ea757c14ec9 ""
   "C:/Users/moisa/AppData/Local/Programs/MiKTeX/tex/latex/xcolor/xcolor.sty" 1729265222 55384 b454dec21c2d9f45ec0b793f0995b992 ""
-  "Logo_uab.png" 1746608097 50804 a8443aa253d4422c98fc3319dbefdfff ""
-  "c:/Users/moisa/Documents/UAB Docs/RPL/RLP-2024-2025/docs/report/report.tex" 1746701752 5695 796a0bfda03ef597bffe65cdab60c320 ""
-  "compacompra_logo.jpg" 1745409264 83065 a4db35ee91a627f1878b8e5913d2349a ""
-  "report.aux" 1746701754 912 0c14eb870be5331a9d7753486dbf5c39 "xelatex"
-  "report.out" 1746701754 969 69afba4b422069e76f1bca074f3b87c5 "xelatex"
-  "report.tex" 1746701752 5695 796a0bfda03ef597bffe65cdab60c320 ""
-  "report.toc" 1746701754 468 f803540243e3f8459c435c49533b9804 "xelatex"
+  "Logo_uab.png" 1746775595 50804 a8443aa253d4422c98fc3319dbefdfff ""
+  "compacompra_logo.jpg" 1746775595 83065 a4db35ee91a627f1878b8e5913d2349a ""
+  "e:/UAB Projects/RLP/RLP-2024-2025/docs/report/report.tex" 1746780050 8590 a60cc4d4fc6406be1a1bb5ab17afa3e8 ""
+  "report.aux" 1746780098 2187 d3b839e3d31a45917c3b823fec25d04b "xelatex"
+  "report.out" 1746780098 2867 8a8b9824afd4c2949e29b94195db5f1f "xelatex"
+  "report.tex" 1746780050 8590 a60cc4d4fc6406be1a1bb5ab17afa3e8 ""
+  "report.toc" 1746780098 1333 56554f269c3fbf30e24a61fc3377f261 "xelatex"
   (generated)
   "report.aux"
   "report.log"

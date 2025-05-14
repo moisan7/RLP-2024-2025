@@ -1,6 +1,6 @@
-PWD c:\Users\moisa\Documents\UAB Docs\RPL\RLP-2024-2025\docs\report
+PWD e:\UAB Projects\RLP\RLP-2024-2025\docs\report
 INPUT C:\Users\moisa\AppData\Local\MiKTeX\miktex\data\le\xetex\xelatex.fmt
-INPUT c:\Users\moisa\Documents\UAB Docs\RPL\RLP-2024-2025\docs\report\report.tex
+INPUT e:\UAB Projects\RLP\RLP-2024-2025\docs\report\report.tex
 OUTPUT report.log
 INPUT C:\Users\moisa\AppData\Local\Programs\MiKTeX\tex\latex\base\article.cls
 INPUT C:\Users\moisa\AppData\Local\Programs\MiKTeX\tex\latex\base\article.cls
