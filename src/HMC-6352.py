@@ -7,6 +7,14 @@ bus = smbus.SMBus(1)
 
 # HMC-6352 default I2C address
 DEVICE_ADDRESS = 0x21
+GET_HEADING_COMMAND = 0x41
+
+#Some important considerations about this Digital Compass Readings:
+#0 degrees = North
+#90 degrees = East
+#180 degrees = South
+#270 degrees = West
+  
 
 def read_compass_heading():
     """
