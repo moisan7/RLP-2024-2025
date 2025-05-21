@@ -1,76 +1,72 @@
-// Define the Arduino pins connected to the DF-MD V1.3 shield for Motor 1
-#define MOTOR1_PWM_PIN 10  // E1 - Speed Control (PWM)
-#define MOTOR1_DIR_PIN 12  // M1 - Direction Control
+// --- ESP32 Pin Assignments for DF-MD v1.4 Shield ---
+// Motor 1
+#define MOTOR1_PWM_PIN 25   // Must be PWM-capable (e.g., GPIO 25)
+#define MOTOR1_DIR_PIN 26   
+// Motor 2
+#define MOTOR2_PWM_PIN 27   // Must be PWM-capable (e.g., GPIO 27)
+#define MOTOR2_DIR_PIN 14   
 
-
-// --- Motor Control Functions ---
-
-
-// Function to drive the motor forward
-// speed: 0 (stopped) to 255 (full speed)
-void motorForward(int speed) {
-  // Set Direction Pin HIGH for forward (swap HIGH/LOW if motor spins wrong way)
+// ======================== MOTOR 1 FUNCTIONS ========================
+void motor1Forward(int speed) {
   digitalWrite(MOTOR1_DIR_PIN, HIGH);
-  analogWrite(MOTOR1_PWM_PIN, speed); // Set speed using PWM
+  analogWrite(MOTOR1_PWM_PIN, speed);
 }
 
-
-// Function to drive the motor backward
-// speed: 0 (stopped) to 255 (full speed)
-void motorBackward(int speed) {
-  // Set Direction Pin LOW for backward (swap HIGH/LOW if motor spins wrong way)
+void motor1Backward(int speed) {
   digitalWrite(MOTOR1_DIR_PIN, LOW);
-  analogWrite(MOTOR1_PWM_PIN, speed); // Set speed using PWM
+  analogWrite(MOTOR1_PWM_PIN, speed);
 }
 
-
-// Function to stop the motor
-void motorStop() {
-  digitalWrite(MOTOR1_DIR_PIN, LOW);  // Set direction pin to a known state (optional)
-  analogWrite(MOTOR1_PWM_PIN, 0);     // Set speed PWM to 0 (effectively stops power)
+void motor1Stop() {
+  analogWrite(MOTOR1_PWM_PIN, 0);
 }
 
+// ======================== MOTOR 2 FUNCTIONS ========================
+void motor2Forward(int speed) {
+  digitalWrite(MOTOR2_DIR_PIN, HIGH);
+  analogWrite(MOTOR2_PWM_PIN, speed);
+}
 
-// --- Arduino Setup ---
+void motor2Backward(int speed) {
+  digitalWrite(MOTOR2_DIR_PIN, LOW);
+  analogWrite(MOTOR2_PWM_PIN, speed);
+}
+
+void motor2Stop() {
+  analogWrite(MOTOR2_PWM_PIN, 0);
+}
+
+// ======================== SETUP ========================
 void setup() {
-  // Initialize Serial communication for debugging output
-  Serial.begin(9600);
-  Serial.println("DF-MD V1.3 - Motor 1 - 10 Second Run Test");
+  Serial.begin(115200);
+  Serial.println("DF-MD v1.4 - Dual Motor Control");
 
-
-  // Set the motor control pins as outputs
-  pinMode(MOTOR1_PWM_PIN, OUTPUT);
+  // Initialize motor control pins
   pinMode(MOTOR1_DIR_PIN, OUTPUT);
+  pinMode(MOTOR1_PWM_PIN, OUTPUT);
+  pinMode(MOTOR2_DIR_PIN, OUTPUT);
+  pinMode(MOTOR2_PWM_PIN, OUTPUT);
 
-
-  // Ensure motor is stopped at the beginning
-  Serial.println("Initializing motor stopped...");
-  motorStop();
-  delay(1000); // Wait 1 second before starting
+  // Start with motors stopped
+  motor1Stop();
+  motor2Stop();
+  delay(1000);
 }
 
-
-// --- Arduino Loop ---
+// ======================== MAIN LOOP ========================
 void loop() {
-  // 1. Start Motor Forward
-  int runSpeed = 255; // Set desired speed (0-255)
-  Serial.print("Running motor FORWARD at speed ");
-  Serial.print(runSpeed);
-  Serial.println(" for 10 seconds...");
-  motorForward(runSpeed); // Start the motor forward
+  Serial.println("Both motors FORWARD at 75% speed");
+  motor1Forward(191);  // 75% of 255 ≈ 191
+  motor2Forward(191);
+  delay(5000);
 
+  Serial.println("Both motors BACKWARD at full speed");
+  motor1Backward(255);
+  motor2Backward(255);
+  delay(5000);
 
-  // 2. Wait for 10 seconds
-  // delay() takes milliseconds, so 10 seconds = 10 * 1000 = 10000 ms
-  delay(10000);
-
-
-  // 3. Stop Motor
-  Serial.println("Stopping motor.");
-  motorStop();
-
-
-  // 4. Pause before repeating
-  Serial.println("Cycle complete. Pausing for 3 seconds...");
-  delay(3000); // Wait for 3 seconds before the loop starts again
+  Serial.println("Stopping both motors");
+  motor1Stop();
+  motor2Stop();
+  delay(3000);
 }
