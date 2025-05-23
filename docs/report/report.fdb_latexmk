@@ -1,16 +1,15 @@
 # Fdb version 4
-["xdvipdfmx"] 1746780099.02242 "report.xdv" "report.pdf" "report" 1746780100.11177 0
-  "report.xdv" 1746780098 76212 506da470d5ff1f7ec12fd1be38ab55d2 "xelatex"
+["xdvipdfmx"] 1748009383.86539 "report.xdv" "report.pdf" "report" 1748009384.85522 0
+  "report.xdv" 1748009383 77184 590fd58b20abaf6162b5d5416e3ffed7 "xelatex"
   (generated)
   "report.pdf"
   (rewritten before read)
-["xelatex"] 1746780096.14592 "e:/UAB Projects/RLP/RLP-2024-2025/docs/report/report.tex" "report.xdv" "report" 1746780100.10144 0
+["xelatex"] 1748009380.38333 "e:/UAB Projects/RLP/RLP-2024-2025/docs/report/report.tex" "report.xdv" "report" 1748009384.84664 0
   "C:/Users/moisa/AppData/Local/MiKTeX/miktex/data/le/xetex/xelatex.fmt" 1742652496 25521436 76f400134e1764658d4b18f6d2e32547 ""
   "C:/Users/moisa/AppData/Local/Programs/MiKTeX/fonts/tfm/adobe/zapfding/pzdr.tfm" 1136768654 1528 7e12f4c0fcf5a072cebdcfbfc610f54c ""
-  "C:/Users/moisa/AppData/Local/Programs/MiKTeX/fonts/tfm/public/cm/cmmi12.tfm" 1136765053 1524 4414a8315f39513458b80dfc63bff03a ""
+  "C:/Users/moisa/AppData/Local/Programs/MiKTeX/fonts/tfm/public/cm/cmmi10.tfm" 1136765053 1528 abec98dbc43e172678c11b3b9031252a ""
+  "C:/Users/moisa/AppData/Local/Programs/MiKTeX/fonts/tfm/public/cm/cmmi5.tfm" 1136765053 1508 c4419b1e413bcd6205bf37867d782a47 ""
   "C:/Users/moisa/AppData/Local/Programs/MiKTeX/fonts/tfm/public/cm/cmmi6.tfm" 1136765053 1512 f21f83efb36853c0b70002322c1ab3ad ""
-  "C:/Users/moisa/AppData/Local/Programs/MiKTeX/fonts/tfm/public/cm/cmmi8.tfm" 1136765053 1520 eccf95517727cb11801f4f1aee3a21b4 ""
-  "C:/Users/moisa/AppData/Local/Programs/MiKTeX/tex/fonts/cascadiamono-otf/CascadiaMono.fontspec" 1736606398 235 5d239e21476392ee12db8f6c704f0fb9 ""
   "C:/Users/moisa/AppData/Local/Programs/MiKTeX/tex/generic/atbegshi/atbegshi.sty" 1575571100 24708 5584a51a7101caf7e6bbf1fc27d8f7b1 ""
   "C:/Users/moisa/AppData/Local/Programs/MiKTeX/tex/generic/babel/babel.sty" 1739553521 143388 b008e1666520ff43d0878397f2926242 ""
   "C:/Users/moisa/AppData/Local/Programs/MiKTeX/tex/generic/babel/locale/en/babel-en.ini" 1739553522 3966 caeee5a9e5771d4446aa1ca9015ba1b2 ""
@@ -42,7 +41,7 @@
   "C:/Users/moisa/AppData/Local/Programs/MiKTeX/tex/latex/base/atveryend-ltx.sty" 1738160243 2378 14b657ee5031da98cf91648f19642694 ""
   "C:/Users/moisa/AppData/Local/Programs/MiKTeX/tex/latex/base/fix-cm.sty" 1738160243 14741 6ad9efc94c78efc56749b0f059d15546 ""
   "C:/Users/moisa/AppData/Local/Programs/MiKTeX/tex/latex/base/fontenc.sty" 1738160243 5275 0d62fb62162c7ab056e941ef18c5076d ""
-  "C:/Users/moisa/AppData/Local/Programs/MiKTeX/tex/latex/base/size12.clo" 1738160243 8449 ffe4ba2166a344827c3a832d1d5e0a91 ""
+  "C:/Users/moisa/AppData/Local/Programs/MiKTeX/tex/latex/base/size11.clo" 1738160243 8464 e73911cdcc738e82d6adccd28e654bb1 ""
   "C:/Users/moisa/AppData/Local/Programs/MiKTeX/tex/latex/base/ts1enc.def" 1738160243 8090 bcb38b4f148e75e16d2c33225dbca53b ""
   "C:/Users/moisa/AppData/Local/Programs/MiKTeX/tex/latex/etoolbox/etoolbox.sty" 1739279216 46850 d87daedc2abdc653769a6f1067849fe0 ""
   "C:/Users/moisa/AppData/Local/Programs/MiKTeX/tex/latex/fontspec/fontspec-xetex.sty" 1715414856 164981 148a15871e0e3c3101b8203733535af2 ""
@@ -80,11 +79,11 @@
   "C:/Users/moisa/AppData/Local/Programs/MiKTeX/tex/latex/xcolor/xcolor.sty" 1729265222 55384 b454dec21c2d9f45ec0b793f0995b992 ""
   "Logo_uab.png" 1746775595 50804 a8443aa253d4422c98fc3319dbefdfff ""
   "compacompra_logo.jpg" 1746775595 83065 a4db35ee91a627f1878b8e5913d2349a ""
-  "e:/UAB Projects/RLP/RLP-2024-2025/docs/report/report.tex" 1746780050 8590 a60cc4d4fc6406be1a1bb5ab17afa3e8 ""
-  "report.aux" 1746780098 2187 d3b839e3d31a45917c3b823fec25d04b "xelatex"
-  "report.out" 1746780098 2867 8a8b9824afd4c2949e29b94195db5f1f "xelatex"
-  "report.tex" 1746780050 8590 a60cc4d4fc6406be1a1bb5ab17afa3e8 ""
-  "report.toc" 1746780098 1333 56554f269c3fbf30e24a61fc3377f261 "xelatex"
+  "e:/UAB Projects/RLP/RLP-2024-2025/docs/report/report.tex" 1748009379 8599 5018584ea8a7074cf3506798d7c37464 ""
+  "report.aux" 1748009383 2187 9352354522480044a3c58287de53f160 "xelatex"
+  "report.out" 1748009383 2867 8a8b9824afd4c2949e29b94195db5f1f "xelatex"
+  "report.tex" 1748009379 8599 5018584ea8a7074cf3506798d7c37464 ""
+  "report.toc" 1748009383 1333 fa13aa4e64ae2e3ad5f183bdbe49f35f "xelatex"
   (generated)
   "report.aux"
   "report.log"
