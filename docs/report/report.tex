@@ -6,12 +6,16 @@
 \usepackage{amsmath} % For advanced mathematics
 \usepackage{hyperref} % For links and references
 \usepackage{unicode-math} % For using Unicode mathematics
-\usepackage[margin=1in]{geometry} % For adjusting margins
+\usepackage[margin=2cm]{geometry} % For adjusting margins
 \usepackage[english]{babel} % For the Spanish language (Note: The option is 'english', but the comment says Spanish. The content is in Spanish.)
+\usepackage{parskip} % A more ordinary distribution of paragraphs
+\usepackage[backend=biber,style=numeric]{biblatex} % Easy control of bibliography
+
+\addbibresource{report.bib}
 
 \setmainfont{Noto Sans} % Changes the main font to Georgia
-\setmathfont{Noto Sans Math} % Changes the math font to TeX Gyre Schola Math
-\setmonofont{Noto Sans Mono} % Changes the monospaced font to Cascadia Mono (Original comment said Consolas, but command is Cascadia Mono)
+\setmathfont{Fira Math} % Changes the math font to TeX Gyre Schola Math
+\setmonofont{Fira Code} % Changes the monospaced font to Cascadia Mono (Original comment said Consolas, but command is Cascadia Mono)
 
 \begin{document}
 
@@ -24,7 +28,7 @@
 
     {\Huge\bfseries \textsc{Compa - Compra}  \\ \Large{Autonomous Shopping Cart} \par}
 
-    \vspace{1cm}
+    \vspace{0.5cm}
     {\Large\bfseries Autonomous University of Barcelona (UAB)
 
     School of Computer Engineering - Robotics 2025 \par}
@@ -82,38 +86,60 @@ regardless of their profile, age, or specific needs.
 Through a multimedia application, the customer enters their shopping
 list, and the ComCom robot processes the best route within the establishment
 using advanced localization and path planning techniques.
-Thanks to the \textbf{D* Lite} algorithm and the use of \textbf{Bluetooth} beacons, \textbf{Compa Compra}
+Thanks to the \textbf{D* Lite} algorithm and the use of \textbf{Bluetooth} 
+beacons, \textbf{Compa Compra}
 optimizes shopping time and facilitates efficient access to each product.
 
 \section{Theoretical Framework and Contextualization}
 
-The \textbf{CompaCompra} project is based on two key areas of robotics and autonomous navigation: \textbf{2D localization} using trilateration and route planning with \textbf{D* Lite}. These concepts allow the assistant to guide the user within the supermarket with precision and adaptability.
+The \textbf{CompaCompra} project is based on two key areas of robotics and 
+autonomous navigation: \textbf{2D localization} using trilateration and 
+route planning with \textbf{D* Lite}. These concepts allow the assistant to
+ guide the user within the supermarket with precision and adaptability.
 
 \subsection{2D Localization}
-One of the main challenges of autonomous navigation is \textbf{indoor localization}. To determine \textbf{ComCom}'s position, 2D trilateration is used with four fixed Bluetooth beacons in the corners of the supermarket.
+One of the main challenges of autonomous navigation is \textbf{indoor 
+localization}. To determine \textbf{ComCom}'s position, 2D trilateration is
+ used with four fixed Bluetooth beacons in the corners of the supermarket.
 
-The method uses the measurement of the \textbf{Received Signal Strength Indicator (RSSI)} from each beacon to estimate the distance between the robot and the fixed references. However, the RSSI signal can be affected by interference, so \textbf{filtering and error correction} techniques, such as moving average and Kalman filter, are applied.
+The method uses the measurement of the \textbf{Received Signal Strength 
+Indicator (RSSI)} from each beacon to estimate the distance between the 
+robot and the fixed references. However, the RSSI signal can be affected 
+by interference, so \textbf{filtering and error correction} techniques, 
+such as moving average and Kalman filter, are applied.
 
-Once the estimated position \((x, y)\) is obtained, it is adjusted to the nearest supermarket grid cell, defined as a mesh of \textbf{0.5m² per node}. This process allows for a discrete representation of the navigation space and facilitates route calculation.
+Once the estimated position \((x, y)\) is obtained, it is adjusted to 
+the nearest supermarket grid cell, defined as a mesh of \textbf{0.5m² 
+per node}. This process allows for a discrete representation of the 
+navigation space and facilitates route calculation.
 
-For more information on trilateration, consult the documentation:
+For more information on trilateration, consult the documentation: \\
 \href{https://en.wikipedia.org/wiki/Trilateration}{Trilateration on Wikipedia}
+\parencite{trilateration-wikipedia}
 
-\subsection{Path Finding Algorithm: D* Lite [TO BE REWRITTEN]}
-The optimal movement of the robot is managed by \textbf{D* Lite}, an efficient route-finding algorithm in dynamic environments. Based on the user's position and the products on the shopping list, the system calculates the ideal trajectory on the node grid.
+\subsection{Path Finding Algorithm: D* Lite}
+The optimal movement of the robot is managed by \textbf{D* Lite}, an 
+efficient route-finding algorithm in dynamic environments. Based on 
+the user's position and the products on the shopping list, the system 
+calculates the ideal trajectory on the node grid.
 
 Each node in the supermarket can be classified as:
 \begin{itemize}
 \item \textbf{Free:} traversable areas without obstacles.
-\item \textbf{Occupied:} areas blocked by shelves, obstacles, or other customers' carts.
+\item \textbf{Occupied:} areas blocked by shelves, obstacles, or other 
+customers' carts.
 \end{itemize}
 
-Initially, all known obstacles are considered, but the path is \textbf{dynamically recalculated} if \textbf{ComCom} detects new impediments during its journey. This allows the robot to adapt in real-time to changes in the environment.
+Initially, all known obstacles are considered, but the path is 
+\textbf{dynamically recalculated} if \textbf{ComCom} detects 
+new impediments during its journey. This allows the robot to adapt 
+in real-time to changes in the environment.
 
 For more information on \textbf{D* Lite}, consult the documentation:
-\href{https://en.wikipedia.org/wiki/D*_Lite}{D* Lite on Wikipedia} % (Original link was to D*, I've pointed to D* Lite)
+\href{https://en.wikipedia.org/wiki/D*_Lite}{D* Lite on Wikipedia} 
+\parencite{dstar-lite-wikipedia} % (Original link was to D*, I've pointed to D* Lite)
 
-\section{Description of the CompaCompra System [TO BE WRITTEN, THESE ARE JUST GUIDE POINTS TO DEVELOP]}
+\section{Description of the CompaCompra System}
 
 \subsection{General Architecture}
 \begin{itemize}
@@ -122,6 +148,14 @@ For more information on \textbf{D* Lite}, consult the documentation:
 \end{itemize}
 
 \subsection{2D Localization}
+
+The robot's main way of moving is through trilateration helped by four beacons placed
+around the area of the supermarket's shelfs, able to locate nodes which represent the items
+that are to be retrieved for purchase. This setup could be seen as in invisible grid or graph
+in which the robot can travel and calculate the fastest path to each of said nodes. In the 
+Methodology section we will discus in detail the software implementation of this 
+invisible grid.
+
 \begin{itemize}
 \item Description of the node grid (supermarket area modeled as 0.5m² nodes)
 \item Function of Bluetooth beacons and RSSI-based position estimation
@@ -135,8 +169,18 @@ For more information on \textbf{D* Lite}, consult the documentation:
 \end{itemize}
 
 \subsection{User Interaction}
+Ease of use is fundamental in a product like Compa-Compra, pourpously made in order
+to make people's life way easier. An app will make the interaction with the robot
+way more easy and comfortable than a pannel inserted into the robot, as it will allow
+the one controling it to simply use their phone, something everybody has and knows how to use
+on the greater demography.
+
+Compa-Compra's control unit which will have a wireless capability, will recive the info-signals 
+needed to drive the robot towards the desired destination. For this, the Raspberry Pi 3-B will sufice,
+as it provides enough power and features to carry all tasks in our proyect.
+
+
 \begin{itemize}
-\item Communication flow between the multimedia application and the robot
 \item User interface and steps to generate the shopping list
 \end{itemize}
 
@@ -169,12 +213,6 @@ For more information on \textbf{D* Lite}, consult the documentation:
 \item Recommendations for future research or improvements in design and functionality
 \end{itemize}
 
-\section{Bibliography / References}
-\begin{itemize}
-\item List of all sources consulted, following a consistent citation style (APA, IEEE, etc.)
-\item Inclusion of technical documentation, articles, and Wikipedia entries (e.g., on trilateration and D* Lite)
-\end{itemize}
-
 \section{Annexes (Optional)}
 \begin{itemize}
 \item Relevant source codes
@@ -183,5 +221,6 @@ For more information on \textbf{D* Lite}, consult the documentation:
 \item Graphical documentation (e.g., photos or environment schemes)
 \end{itemize}
 
+\printbibliography
 
 \end{document}

@@ -1,8 +1,21 @@
 # Compa - Compra
 ## What is it?
-Compa-Compra is a general purpose autonomous shopping assistant that guides and assists the store user to complete their shopping easily and simply. The user communicates with ComCom through an application where products are specified.
+Compa-Compra is a general purpose autonomous shopping assistant that guides and assists the store user to complete their shopping easily and simply, in which user communicates with ComCom through an application where products are specified.
 
 ## Table of contents
+
+- [Hardware](#hardware)
+  - [Components](#components)
+  - [Connection Diagram](#connection-diagram)
+  - [And other stuff](#and-other-stuff)
+- [Software](#software)
+  - [Software Arquitecture](#software-arquitecture)
+  - [Requirements and Languages](#requirements-and-languages)
+  - [Algorythms](#algorythms)
+- [Results](#results)
+  - [Videos](#videos)
+  - [Contributions](#contributions)
+- [Autors](#autors)
 
 ## Hardware 
 
