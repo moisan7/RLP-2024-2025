@@ -187,6 +187,7 @@ INPUT .\report.aux
 INPUT .\report.aux
 INPUT report.aux
 OUTPUT report.aux
+INPUT C:\Users\moisa\AppData\Local\Programs\MiKTeX\tex\latex\graphics\color.sty
 INPUT .\report.out
 INPUT .\report.out
 INPUT report.out

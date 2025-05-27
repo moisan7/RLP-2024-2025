@@ -1,17 +1,17 @@
 # Fdb version 4
-["biber report"] 1748337569.95112 "report.bcf" "report.bbl" "report" 1748340571.42906 0
-  "report.bcf" 1748340570 108639 2df69ea53585a3fcf2ef4c500b3727be "xelatex"
+["biber report"] 1748337569.95112 "report.bcf" "report.bbl" "report" 1748341310.50449 0
+  "report.bcf" 1748341309 108639 2df69ea53585a3fcf2ef4c500b3727be "xelatex"
   "report.bib" 1748337459 549 93899c9ec37134841e037647e45d6885 ""
   (generated)
   "report.bbl"
   "report.blg"
   (rewritten before read)
-["xdvipdfmx"] 1748340570.74488 "report.xdv" "report.pdf" "report" 1748340571.4348 0
-  "report.xdv" 1748340570 88320 a7fdd3769d0ed0df38e2ff880860a2ea "xelatex"
+["xdvipdfmx"] 1748341309.83924 "report.xdv" "report.pdf" "report" 1748341310.5126 0
+  "report.xdv" 1748341309 88452 057f9a999618fd73d6825ff65bb85b75 "xelatex"
   (generated)
   "report.pdf"
   (rewritten before read)
-["xelatex"] 1748340568.26942 "c:/Users/moisa/Documents/UAB Docs/RPL/RLP-2024-2025/docs/report/report.tex" "report.xdv" "report" 1748340571.42944 0
+["xelatex"] 1748341306.97198 "c:/Users/moisa/Documents/UAB Docs/RPL/RLP-2024-2025/docs/report/report.tex" "report.xdv" "report" 1748341310.50489 0
   "C:/Users/moisa/AppData/Local/MiKTeX/miktex/data/le/xetex/xelatex.fmt" 1742574144 25521436 d4932753c1d11b4695e4c79805e55de1 ""
   "C:/Users/moisa/AppData/Local/Programs/MiKTeX/fonts/tfm/adobe/zapfding/pzdr.tfm" 1136768654 1528 7e12f4c0fcf5a072cebdcfbfc610f54c ""
   "C:/Users/moisa/AppData/Local/Programs/MiKTeX/fonts/tfm/public/cm/cmmi10.tfm" 1136765053 1528 abec98dbc43e172678c11b3b9031252a ""
@@ -72,6 +72,7 @@
   "C:/Users/moisa/AppData/Local/Programs/MiKTeX/tex/latex/graphics-cfg/color.cfg" 1465894292 1213 620bba36b25224fa9b7e1ccb4ecb76fd ""
   "C:/Users/moisa/AppData/Local/Programs/MiKTeX/tex/latex/graphics-cfg/graphics.cfg" 1465894292 1224 978390e9c2234eab29404bc21b268d1e ""
   "C:/Users/moisa/AppData/Local/Programs/MiKTeX/tex/latex/graphics-def/xetex.def" 1713599642 14788 1dde73f396dd97d88c838bee2a352abe ""
+  "C:/Users/moisa/AppData/Local/Programs/MiKTeX/tex/latex/graphics/color.sty" 1730544106 7245 57f7defed4fb41562dc4b6ca13958ca9 ""
   "C:/Users/moisa/AppData/Local/Programs/MiKTeX/tex/latex/graphics/graphics.sty" 1730544106 18363 dee506cb8d56825d8a4d020f5d5f8704 ""
   "C:/Users/moisa/AppData/Local/Programs/MiKTeX/tex/latex/graphics/graphicx.sty" 1730544106 8010 6f2ad8c2b2ffbd607af6475441c7b5e4 ""
   "C:/Users/moisa/AppData/Local/Programs/MiKTeX/tex/latex/graphics/keyval.sty" 1730544106 2671 70891d50dac933918b827d326687c6e8 ""
@@ -101,14 +102,14 @@
   "C:/Users/moisa/AppData/Local/Programs/MiKTeX/tex/latex/url/url.sty" 1388490452 12796 8edb7d69a20b857904dd0ea757c14ec9 ""
   "C:/Users/moisa/AppData/Local/Programs/MiKTeX/tex/latex/xcolor/xcolor.sty" 1729265222 55384 b454dec21c2d9f45ec0b793f0995b992 ""
   "Logo_uab.png" 1746608097 50804 a8443aa253d4422c98fc3319dbefdfff ""
-  "c:/Users/moisa/Documents/UAB Docs/RPL/RLP-2024-2025/docs/report/report.tex" 1748340564 9614 9479735e03afdc38eaac8483b6a4ac66 ""
+  "c:/Users/moisa/Documents/UAB Docs/RPL/RLP-2024-2025/docs/report/report.tex" 1748341306 9717 5c29e56ffc00779ba86d8620fec67e38 ""
   "compacompra_logo.jpg" 1745409264 83065 a4db35ee91a627f1878b8e5913d2349a ""
-  "report.aux" 1748340570 2450 9d300f26e6c5b54f34d0abe6ff0789c7 "xelatex"
+  "report.aux" 1748341309 2450 9d300f26e6c5b54f34d0abe6ff0789c7 "xelatex"
   "report.bbl" 1748337572 3231 0788f620161246da7885bb3dd3e748ff "biber report"
-  "report.out" 1748340570 2283 4fd03d18f7bbd495d0ca03a0c7c3d530 "xelatex"
-  "report.run.xml" 1748340570 2350 3aa6604a065aed1d7ae2817af42d008f "xelatex"
-  "report.tex" 1748340564 9614 9479735e03afdc38eaac8483b6a4ac66 ""
-  "report.toc" 1748340570 1178 c65b357e2245fe1bf953dc1cd5e3f261 "xelatex"
+  "report.out" 1748341309 2283 4fd03d18f7bbd495d0ca03a0c7c3d530 "xelatex"
+  "report.run.xml" 1748341309 2350 3aa6604a065aed1d7ae2817af42d008f "xelatex"
+  "report.tex" 1748341306 9717 5c29e56ffc00779ba86d8620fec67e38 ""
+  "report.toc" 1748341309 1178 c65b357e2245fe1bf953dc1cd5e3f261 "xelatex"
   (generated)
   "report.aux"
   "report.bcf"
