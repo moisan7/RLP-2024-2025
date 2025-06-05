@@ -1,18 +1,15 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Tue Jun  3 11:53:28 2025
+#!/usr/bin/env python3
+# -- coding: utf-8 --
 
-@author: David
+"""
+Created on Thu May 29 11:44:31 2025
+@author: Adrian
 """
 
 import asyncio
 from bleak import BleakScanner
 import time
 import platform
-
-# Añadido para compatibilidad con entornos interactivos como Spyder o Jupyter
-import nest_asyncio
-nest_asyncio.apply()
 
 # Lista de direcciones MAC de los beacons objetivo (en minúsculas)
 TARGET_MACS = {
@@ -21,13 +18,27 @@ TARGET_MACS = {
     "14:33:5c:30:09:aa",
     "14:33:5c:38:72:ca"
 }
+
+
+### cambiar segun posicionamiento beacons
+idmac = {}
+idmac["d8:13:2a:73:6c:7a"] = "bottom-left"
+idmac["a0:a3:b3:2c:8c:be"] = "bottom-right"
+idmac["14:33:5c:30:09:aa"] = "top-right"
+idmac["14:33:5c:38:72:ca"] = "top-left"
+
+# Normaliza a minúsculas
 TARGET_MACS = set(mac.lower() for mac in TARGET_MACS)
+
+# Valor de alpha para el filtro exponencial (más cercano a 1 = más sensible)
+ALPHA = 0.2
 
 async def scan_beacons():
     print("Escaneando continuamente los beacons especificados...")
     print("Presiona Ctrl + C para detener.\n")
 
-    found_devices = {}
+    raw_rssi = {}
+    filtered_rssi = {}
 
     try:
         while True:
@@ -37,25 +48,31 @@ async def scan_beacons():
                 mac = dev.address.lower()
                 if mac in TARGET_MACS:
                     rssi = dev.rssi
-                    found_devices[mac] = rssi
-                    print(f"[{time.strftime('%H:%M:%S')}] {mac} - RSSI: {rssi} dB")
+
+                    # Filtro de media móvil exponencial (EMA)
+                    if mac in filtered_rssi:
+                        filtered_rssi[mac] = ALPHA * rssi + (1 - ALPHA) * filtered_rssi[mac]
+                    else:
+                        filtered_rssi[mac] = rssi  # Primer valor sin filtrar
+
+                    raw_rssi[mac] = rssi
+
+                    #print(f"[{time.strftime('%H:%M:%S')}] {mac} - RSSI: {rssi} dB | Filtrado: {filtered_rssi[mac]:.2f} dB")
+                    
+            for mac in TARGET_MACS:
+                print(f"[{time.strftime('%H:%M:%S')}] {idmac[mac]} - RSSI: {raw_rssi[mac]} dB ")
+            print("--------------------------------------------------------------")
+
+
     except KeyboardInterrupt:
         print("\n\nEscaneo detenido por el usuario.")
         print("Últimos valores RSSI detectados:")
-        for mac, rssi in found_devices.items():
-            print(f"{mac} - RSSI: {rssi} dB")
-        return found_devices
+        for mac in filtered_rssi:  
+            print(f"{mac} - RSSI filtrado: {filtered_rssi[mac]:.2f} dB")
+        return filtered_rssi
 
-# Solo para Windows: usa el selector de bucle compatible
-if platform.system() == "Windows":
-    asyncio.set_event_loop_policy(asyncio.WindowsSelectorEventLoopPolicy())
 
-# Ejecuta el bucle sin romper el entorno de Spyder
-loop = asyncio.get_event_loop()
-loop.create_task(scan_beacons())
-
-# Mantener el bucle activo indefinidamente
-try:
-    loop.run_forever()
-except KeyboardInterrupt:
-    print("Programa detenido por el usuario.")
+if __name__ == "__main__":
+    if platform.system() == "Windows":
+        asyncio.set_event_loop_policy(asyncio.WindowsSelectorEventLoopPolicy())
+    asyncio.run(scan_beacons())
