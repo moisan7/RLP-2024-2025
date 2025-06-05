@@ -3,7 +3,7 @@
 
 """
 Created on Thu May 29 11:44:31 2025
-@author: Adrian
+@author: servito
 """
 
 import asyncio
@@ -60,7 +60,10 @@ async def scan_beacons():
                     #print(f"[{time.strftime('%H:%M:%S')}] {mac} - RSSI: {rssi} dB | Filtrado: {filtered_rssi[mac]:.2f} dB")
                     
             for mac in TARGET_MACS:
-                print(f"[{time.strftime('%H:%M:%S')}] {idmac[mac]} - RSSI: {raw_rssi[mac]} dB ")
+                if mac in raw_rssi:
+                    print(f"[{time.strftime('%H:%M:%S')}] {idmac[mac]} - RSSI: {raw_rssi[mac]} dB ")
+                else:
+                    print(f"[{time.strftime('%H:%M:%S')}] {idmac[mac]} - No detectado")
             print("--------------------------------------------------------------")
 
 
