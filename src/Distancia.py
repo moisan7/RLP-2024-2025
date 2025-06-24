@@ -3,9 +3,9 @@ import time
 
 # --- Configuración de los Sensores ---
 SENSORES = [
-    {'nombre': 'Sensor 1 (Frontal)', 'trig': 18, 'echo': 24}, #Valores de los pines de la Raspberry a los cuales están conectados los Sensores.
+    {'nombre': 'Sensor 1 (Frontal)', 'trig': 27, 'echo': 24}, #Valores de los pines de la Raspberry a los cuales están conectados los Sensores.
     {'nombre': 'Sensor 2 (Izquierda)', 'trig': 20, 'echo': 26},
-    {'nombre': 'Sensor 3 (Derecha)', 'trig': 17, 'echo': 27}
+    {'nombre': 'Sensor 3 (Derecha)', 'trig': 18, 'echo': 17}
 ]
 
 # --- Configuración de GPIO ---
