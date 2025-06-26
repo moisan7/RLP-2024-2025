@@ -93,7 +93,27 @@ The Compa-Compra system consists of the following hardware components:
 
 ### Connection Diagram
 
-[Connetion Diagram](connection/Raspberry%20PI%20&%20ESP32-1.png)
+![Connetion Diagram](connection/Raspberry%20PI%20&%20ESP32-1.png)
+
+### 3D Parts
+
+<table>
+  <tr>
+    <td align="center">
+      <img src="models/Captura de pantalla 2025-06-26 232634.png" alt="Sensor Distancia HC-SR04" width="150"/>
+    </td>
+    <td align="center">
+      <img src="models/Captura de pantalla 2025-06-26 232646.png" alt="Sensor Distancia HC-SR04" width="150"/>
+    </td>
+    <td align="center">
+      <img src="models/Captura de pantalla 2025-06-26 232652.png" alt="Sensor Distancia HC-SR04" width="150"/>
+    </td>
+    <td align="center">
+      <img src="models/Captura de pantalla 2025-06-26 232700.png" alt="Sensor Distancia HC-SR04" width="150"/>
+    </td>
+  </tr>
+</table>
+
 
 ### Assembly Instructions
 
@@ -220,3 +240,5 @@ This project demonstrates:
 ---
 
 *Made with ❤️ by the Compa-Compra team*
+
+![gif](models/ezgif-7e1b5684ff93fe.gif)
