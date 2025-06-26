@@ -88,13 +88,13 @@ The Compa-Compra system consists of the following hardware components:
 The Compa-Compra system follows a modular architecture:
 
 ```
-┌─────────────────┐    ┌─────────────────┐    ┌─────────────────┐
-│   Mobile App    │    │   Robot System  │    │   Backend API   │
-│                 │◄──►│                 │◄──►│                 │
+┌──────────────────┐    ┌─────────────────┐    ┌─────────────────┐
+│   Mobile App     │    │   Robot System  │    │   Backend API   │
+│                  │◄──►│                 │◄──►│                 │
 │  - User Interface│    │ - Navigation    │    │ - Product DB    │
-│  - Product Lists│    │ - Communication │    │ - Store Maps    │
-│  - Preferences  │    │ - Sensors       │    │ - Analytics     │
-└─────────────────┘    └─────────────────┘    └─────────────────┘
+│  - Product Lists │    │ - Communication │    │ - Store Maps    │
+│  - Preferences   │    │ - Sensors       │    │ - Analytics     │
+└──────────────────┘    └─────────────────┘    └─────────────────┘
 ```
 
 ### Requirements and Languages
@@ -145,9 +145,7 @@ The system implements several key algorithms:
 
 | Demo Type | Description | Link |
 |-----------|-------------|------|
-| System Overview | Complete system demonstration | [Watch Video](LINK_TO_VIDEO) |
-| Navigation Demo | Autonomous navigation in store | [Watch Video](LINK_TO_VIDEO) |
-| User Interaction | Mobile app and robot interaction | [Watch Video](LINK_TO_VIDEO) |
+| Navigation + APP Demo | Autonomous navigation in store | [Watch Video](https://youtu.be/27P_5_Zp0pg) |
 
 ### Contributions
 
