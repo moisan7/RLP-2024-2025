@@ -66,9 +66,7 @@ The Compa-Compra system consists of the following hardware components:
 
 ### Connection Diagram
 
-```
-[Connection diagram will be inserted here]
-```
+![Connetion Diagram](connection/Raspberry%20PI%20&%20ESP32-1.png)
 
 *Add your system's wiring diagram, showing how all electronic components connect to the main controller.*
 
