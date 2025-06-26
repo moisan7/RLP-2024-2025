@@ -77,8 +77,6 @@ The Compa-Compra system consists of the following hardware components:
 3. **Step 3**: Install sensors and calibrate the system
 4. **Step 4**: Test all connections and functionality
 
-*[Add detailed assembly instructions with photos]*
-
 ## Software
 
 ### Software Architecture
@@ -123,7 +121,7 @@ The system implements several key algorithms:
 
 #### 1. Path Planning Algorithm
 - **Purpose**: Optimal route calculation through store layout
-- **Method**: [e.g., A*, Dijkstra's algorithm, or custom implementation]
+- **Method**: A* & TSP
 - **Input**: Store map, current position, target products
 - **Output**: Optimized shopping route
 
@@ -134,7 +132,7 @@ The system implements several key algorithms:
 
 #### 3. Navigation Control
 - **Purpose**: Autonomous movement and obstacle avoidance
-- **Method**: [e.g., PID control, sensor fusion, mapping]
+- **Method**: Trilateration and possitioning
 - **Features**: Real-time obstacle detection and avoidance
 
 ## Results
@@ -164,9 +162,12 @@ This project demonstrates:
 ## Authors
 
 **Development Team:**
-- [Author Name 1] - [Role/Contribution] - [Email/GitHub]
-- [Author Name 2] - [Role/Contribution] - [Email/GitHub]
-- [Author Name 3] - [Role/Contribution] - [Email/GitHub]
+- Adrià Fernández Mata
+- David Madueño Noguer
+- Moisés Sánchez Pin
+- Tiago Nunes Rodrigues
+- Pol Tomé Garcia
+
 
 ---
 
