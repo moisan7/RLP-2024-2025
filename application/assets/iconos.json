@@ -1,0 +1,24 @@
+{
+  "productos": [
+    { "nombre": "Aceite", "emoji": "🫒" },
+    { "nombre": "Arroz", "emoji": "🍚" },
+    { "nombre": "Atún", "emoji": "🐟" },
+    { "nombre": "Azúcar", "emoji": "🍬" },
+    { "nombre": "Café", "emoji": "☕" },
+    { "nombre": "Detergente", "emoji": "🧼" },
+    { "nombre": "Galletas", "emoji": "🍪" },
+    { "nombre": "Gel", "emoji": "🧴" },
+    { "nombre": "Harina", "emoji": "🌾" },
+    { "nombre": "Huevos", "emoji": "🥚" },
+    { "nombre": "Jabón", "emoji": "🧽" },
+    { "nombre": "Leche", "emoji": "🥛" },
+    { "nombre": "Mantequilla", "emoji": "🧈" },
+    { "nombre": "Pan", "emoji": "🍞" },
+    { "nombre": "Pasta", "emoji": "🍝" },
+    { "nombre": "Queso", "emoji": "🧀" },
+    { "nombre": "Sal", "emoji": "🧂" },
+    { "nombre": "Sardinas", "emoji": "🐠" },
+    { "nombre": "Tomate", "emoji": "🍅" },
+    { "nombre": "Té", "emoji": "🍵" }
+  ]
+}

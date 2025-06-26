@@ -68,8 +68,6 @@ The Compa-Compra system consists of the following hardware components:
 
 ![Connetion Diagram](connection/Raspberry%20PI%20&%20ESP32-1.png)
 
-*Add your system's wiring diagram, showing how all electronic components connect to the main controller.*
-
 ### Assembly Instructions
 
 1. **Step 1**: Assemble the 3D printed chassis components
@@ -180,17 +178,6 @@ This project demonstrates:
 4. Upload firmware to the robot system
 5. Configure your store layout
 6. Start shopping with ComCom! 🛒
-
-### Documentation
-- [Hardware Setup Guide](docs/hardware-setup.md)
-- [Software Installation](docs/software-installation.md)
-- [User Manual](docs/user-manual.md)
-- [API Documentation](docs/api-docs.md)
-
-### Support
-- **Issues**: Please report bugs and feature requests through GitHub Issues
-- **Wiki**: Check our [project wiki](LINK_TO_WIKI) for detailed documentation
-- **Contact**: [your-email@example.com]
 
 ---
 
